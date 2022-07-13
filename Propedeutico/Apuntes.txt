@@ -1,0 +1,119 @@
+Web FullStack
+STACKS:
+
+stack Mern
+    Web 
+        -react.js 
+    server
+        -express.js
+        -Node.js
+    Database
+        -MongoDB
+
+Web FullStack
+    Front
+
+        html
+        css
+        js
+
+    back
+        Node
+        react
+        express
+        MongoDB
+
+__________________________
+=======Consejos practicos====
+Servidores
+    status code 
+    100
+    200
+    300
+    400
+Diagrama de Roadmap 
+    backend 
+    frontend
+    
+La curva de aprendizaje al terminar se incrementara
+-Prender la camara es super importante
+-Encender la camara
+-Tomarse las cosas con calma
+-Descansar
+-Comer bien
+-Preguntar no esta mal
+-Practicar 
+-Desarrollar habilidades
+-Desafiarte a ti mismo
+-Autodidacta
+
+Que es una pagina web
+-Documento
+Que es un Sitio Web
+-Coleccion de paginas web
+Que es una aplicacion Web
+=======================================
+Muestra paginas de interes propias
+=======FASES DEL DESARROOLLO DE UN SITIO WEB========
+    *Entrevista
+    *Investigacion
+    *Desarrollo de Wireframes
+    *Diseño de Mockups
+    *Prototipado
+    *Desarrollo
+    *Lanzamiento
+
+Wireframes
+    Esquema de lo que se ve en la pantalla de una web o una app
+
+    Ventajas:
+        proceso gana agilidad
+        Mockups listos
+        Conocimientos sobre la distribucion del contenido
+        Costos
+        contrato
+
+=====DINAMICA=======
+crear el Wireframes en miro 
+https://thenewmobileworkforce.imm-g-prod.com/on-race-day
+
+Mockups
+    Un Mockups o maqueta es un montaje digital que permite a los diseñadores
+    mostrar cómo quedaran sus diseños.
+    Se genera una idea mas aproximada o realista de como se veria terminado.
+
+Pruebas de Prototipos
+    Memes de uso intuitivo 
+Prototipo
+    cierta interaccion
+    ciertos movimientospues 
+
+======HTML=========
+    Estructura de documento HTML
+    <!doctype html>  ----- Tipo de documento HTML
+    <html lang> --------lenguaje del documento
+    <meta> ------------- MetaData
+    
+ELEMENTOS HTML
+
+ATRIBUTOS
+Proporcionan informacion adicion a los elementros
+href esta dentro del elemento <a> ejemplo-- <a href "google.com"> Google </a>
+
+COMENTARIOS
+<!--COMENTARIO-->
+
+========CSS=========
+cascading style sheets----- Hojas de estilo en cascada
+class=" --------->  .selectorPorClase
+id=""   --------->  #selectorPorId
+div{}   --------->  selector por etiqueta
+
+===EDITORES DE CODIGO====
+Visual Estudio
+Sublime Text
+Atom
+Notepad.
+
+=======================================================================
+
