@@ -1,2 +1,2 @@
-# html
-=======Apuntes de modulo 2=====
+# BootCamp De Kodemia
+=======Un apasionado por el continuo desarrollo tecnológico, me gusta apoyar a los demás siempre que este a mi alcance, proactivo, organizado y responsable.=====
