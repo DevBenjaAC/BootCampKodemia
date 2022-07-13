@@ -26,3 +26,19 @@ Atributos personalizados
 
 ======ESTRUCTURA HTML======
 etiqueta de apertura--> atributo--> valor--> etiqueta de cierre
+========EMMET===
+html:5 --> Te brinda la estructura basica del html 5
+head--> Conjunto de instrucciones adicionales para el navegador
+body--> TODO LO QUE EL USUARIO VE
+
+=======HOMEWORK=======
+css 
+    que es 
+    para que sirve
+    como funciona
+
+Tipos de elementos html
+    Como se comportan
+    Por que son llamados asi 
+    Caracteristicas 
+    

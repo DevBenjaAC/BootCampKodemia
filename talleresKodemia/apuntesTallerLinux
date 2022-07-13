@@ -1,0 +1,129 @@
+======TALLER LINUX======
+Impartido por Alfredo- KODEMIA
+    LINUX
+        Nos preparamos a nuestro ambiente de desarrollo
+        para el ambiente de produccion.
+
+        Mantener un sistema linux en un servidor es mas
+        economico que un servidor windows
+
+        Un sistema windows siempre necesitara recursos 
+        adicionales y graficos como mouse o teclado.
+            Desperdicio de recursos.
+
+=====SISTEMAS OPERATIVOS==
+    -macOs
+    -windows
+    -unix
+    -Gnu
+    -linux
+
+    *Dennis ritchue y ken thomson crean UNIX en 1969
+    *Richard stallman fundador de FSF free software foundation
+    *Linus torvalds crea linux foundation
+        Empieza a trabajar en drivers genericos
+    *Richard stallman y linus torvalds crean GNU/LINUX en 1991
+
+
+Instalacion de wsl
+intalacion de brew
+tldr
+tree
+para intalar en macOs
+brew install tldr
+para usar tldr es ----> tldr tree ---> Mostrara el manual de tree resumido
+========TERMINAL=========
+
+sudo apt update ------ Enlista las actualizaciones
+suddo apt upgrade ---- Intala las actualizaciones
+sudo apt  ------------ 
+
+======COMANDOS==========
+
+pwd    ---> Directorio en donde esta parado el puntero
+ls     ---> Enlista el contenido en Directorio
+ls -a  ---> Enlista todos los archivos y carpeta del Directorio (tambien ocultos)
+ls -l  ---> Enlista todos los archivos en formato largo
+______________
+- List files one per line:
+    ls -1
+
+- List all files, including hidden files:
+    ls -a
+
+- List all files, with trailing `/` added to directory names:
+    ls -F
+
+- Long format list (permissions, ownership, size, and modification date) of all files:
+    ls -la
+
+- Long format list with size displayed using human-readable units (KiB, MiB, GiB):
+    ls -lh
+
+- Long format list sorted by size (descending):
+    ls -lS
+
+- Long format list of all files, sorted by modification date (oldest first):
+    ls -ltr
+
+- Only list directories:
+    ls -d */
+________________
+CD 
+cd
+
+Change the current working directory.
+More information: <https://manned.org/cd>.
+
+- Go to the specified directory:
+    cd path/to/directory
+
+- Go up to the parent of the current directory:
+    cd ..
+
+- Go to the home directory of the current user:
+    cd
+
+- Go to the home directory of the specified user:
+    cd ~username
+
+- Go to the previously chosen directory:
+    cd -
+_____________________
+
+mkdir
+
+Creates a directory.
+More information: <https://www.gnu.org/software/coreutils/mkdir>.
+
+- Create a directory in current directory or given path:
+    mkdir directory
+
+- Create multiple directories in the current directory:
+    mkdir directory_1 directory_2 ...
+
+- Create directories recursively (useful for creating nested dirs):
+    mkdir -p path/to/directory
+___________________________________
+
+mv 
+
+- Move a file to an arbitrary location:
+    mv source target
+
+- Move files into another directory, keeping the filenames:
+    mv source1 source2 source3 target_directory
+
+- Do not prompt for confirmation before overwriting existing files:
+    mv -f source target
+
+- Prompt for confirmation before overwriting existing files, regardless of file permissions:
+    mv -i source target
+
+- Do not overwrite existing files at the target:
+    mv -n source target
+
+- Move files in verbose mode, showing files after they are moved:
+    mv -v source target
+
+MAS COMANDOS
