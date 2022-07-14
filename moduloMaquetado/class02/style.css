@@ -10,7 +10,68 @@ h2{
 .my-color{
   color: purple;
 }
+/* selector por id */
 #title-main{
   color: black;
   background-color: yellow;
+}
+.my-color{
+  /* font-size: 30px; */
+  color: red;
+  }
+
+  body{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px;
+    color: grey;
+  }
+
+.square{
+  background-color: yellow;
+  color: black;
+  width: 200px;
+  height: 200px;
+  /* height: 150px; */
+  /* max-width: 500px;
+  min-width: 300px;
+  max-height: 1000px;
+  min-height: 200px; */
+  /* padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px; */
+  /* Shorthand
+  padding: top right bottom left; */
+  /* padding: 20px 30px 20px 20px;
+  padding: 40px 15px 40px;
+  padding: 50px 100px; */
+  padding: 20px;
+  border-width: 30px;
+  /* border-style: solid,dotted, dashed, double, groove,ridge; */
+  border-style: solid;
+  border-color: purple;
+  box-sizing: border-box;
+/* box-sizing: 
+content-box --> medida orientada al borde 
+sea enfocada al contenido (se puede desbordar y se suma el contenido)
+
+border-box---> medida orientada al borde 
+sea enfocada a las declaraciones de width y height y el contenido se ajusta.
+*/
+/* margin-top: 50px;
+margin-right: 100px;
+margin-bottom: 50px;
+margin-left: 100px;
+margin: top right bottom left;
+margin: 50px 50px 50px 50px;
+margin: 100px 20px;
+margin: 50px; */
+/* margin: auto; SOLO SE USA EN HORIZONTAL LEFT Y RIGHT  */
+
+/* margin: auto; */
+margin-left: auto;
+margin-right: auto;
+margin: 0 auto;
+
 }

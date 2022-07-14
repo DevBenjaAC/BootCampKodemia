@@ -42,6 +42,7 @@ Formas de aplicar:
 style en linea
 style en header
 style linkeado
+=====================
 NUNCA USAR ID REPETIDOS
 
 =======Espesicifidad=====
@@ -49,3 +50,47 @@ Que selector tiene mayor peso
 tagname = Valor 001
 .class = Valor 10
 #id = Valor 100
+style en linea = Valor 1000
+
+=======Cascada==========
+    siempre y cuando el selector tenga misma 
+    Espesicifidad se toma el ultimo y lo sobreescribe
+
+======Herencia==========
+Hereadbles --> La habilidad de dar estilos a los hijos 
+    font family
+    font size
+    color
+
+NO HEREDABLES ---> No heredan sus estilos a los hijos
+        border
+
+==============BOXMODEL=============
+content = Contenido
+
+padding = Relleno
+    /* Shorthand
+  padding: top right bottom left; */
+  padding: 20px 30px 20px 20px;
+
+border = Borde
+        /* box-sizing: 
+    content-box --> medida orientada al borde 
+    sea enfocada al contenido (se puede desbordar y se suma el contenido)
+
+    border-box---> medida orientada al borde 
+    sea enfocada a las declaraciones de width y height y el contenido se ajusta.
+
+    */
+
+margin = Margen 
+    margin: top right bottom left;
+    centrar elemento horizontal: elemento de bloque width definido
+    aplicar margin auto elemento de bloque y width definido
+
+
+
+
+====HOMEWORK=====
+REVISAR LISTA DE ELEMENTOS NO HEREDABLES/HEREDABLES
+https://www.w3.org/TR/css-2010/#properties
