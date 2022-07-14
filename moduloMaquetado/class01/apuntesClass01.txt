@@ -32,13 +32,31 @@ head--> Conjunto de instrucciones adicionales para el navegador
 body--> TODO LO QUE EL USUARIO VE
 
 =======HOMEWORK=======
-css 
-    que es 
-    para que sirve
-    como funciona
+*css* 
+    que es
+        hojas de estilo en cascada» (Cascading Style Sheets). 
+        Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web
+        para que sirve
 
-Tipos de elementos html
+    como funciona 
+        enlazas una página HTML a una hoja de estilos CSS, 
+        ésta tiene una serie de comandos que modifican a todos los elementos que concuerden 
+        con determinado criterio.
+
+*Tipos de elementos html*
+
     Como se comportan
-    Por que son llamados asi 
-    Caracteristicas 
+        El elemento HTML es todo, desde la etiqueta de inicio hasta la etiqueta final:
+        < nombre de la etiqueta > El contenido va aquí... < /nombre de la etiqueta >
+
+        Un elemento de HTML es un tipo de componente de documento de HTML (Hypertext Markup 
+        Lengua), uno de los diversos tipos de nodos de HTML ( hay también nodos de texto, 
+        nodos de comentario y otros).
+
+    Por que son llamados asi
+
+    Caracteristicas
+        sintaxis
+            < nombre de la etiqueta > El contenido va aquí... < /nombre de la etiqueta Cierre>
     
+
