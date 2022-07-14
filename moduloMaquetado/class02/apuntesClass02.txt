@@ -11,4 +11,41 @@ uno delante del otro.
     input
 
 CSS
+Arte
+Diseño 
+animacion
+Las bases principales de CSS
+Necesitamos la sintasix:
 
+selector{propiedad:valor; propiedad2:valor2}
+    selector= elemento a modificar
+    propiedad=caracteristica que se modifica
+    valor=Que estilo obtiene
+
+====selectores Basicos====
+    Selector Universal = *
+    Selector Por tagName = nombre de la etiqueta
+    Selector por clase = . (Nombre de la clase)
+    Selector por id = # (id Asignado)
+=====================================
+selectores Avanzados==
+selectores Decendientes==
+selectores Combinados==
+selectores Adyecuentes/subsecuentes==
+
+=======Principales Pilares de CSS=====
+    Espesicifidad
+    Cascada
+    Herencia
+
+Formas de aplicar:
+style en linea
+style en header
+style linkeado
+NUNCA USAR ID REPETIDOS
+
+=======Espesicifidad=====
+Que selector tiene mayor peso
+tagname = Valor 001
+.class = Valor 10
+#id = Valor 100

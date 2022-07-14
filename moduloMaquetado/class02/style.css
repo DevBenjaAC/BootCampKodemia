@@ -1,0 +1,16 @@
+/* selector Universal  */
+*{
+  color: red;
+}
+/* selector por tagname */
+h2{
+  color: green;
+}
+/* Selector por clase */
+.my-color{
+  color: purple;
+}
+#title-main{
+  color: black;
+  background-color: yellow;
+}
