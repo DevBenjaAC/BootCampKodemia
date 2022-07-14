@@ -94,3 +94,5 @@ margin = Margen
 ====HOMEWORK=====
 REVISAR LISTA DE ELEMENTOS NO HEREDABLES/HEREDABLES
 https://www.w3.org/TR/css-2010/#properties
+Practica 4 Comenzarla y entregarla :)
+
