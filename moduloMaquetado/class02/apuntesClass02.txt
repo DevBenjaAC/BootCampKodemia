@@ -2,13 +2,23 @@ ELEMENTOS HTML
 
 Elementos block abarcan todo el espacio del contenedor padre y se apilan uno debajo del otro
     p
-    h1
+    h
+    div
+    aside
+    form
+    header
+    article
+    table
 ========
 elementos in line son los que solo abarcan unicamente la base de su contenido, se alinean
 uno delante del otro.
     a
     img
     input
+    button
+    em 
+    strong
+
 
 CSS
 Arte
@@ -39,7 +49,7 @@ selectores Adyecuentes/subsecuentes==
     Herencia
 
 Formas de aplicar:
-style en linea
+style en linea //Nunca Usar
 style en header
 style linkeado
 =====================

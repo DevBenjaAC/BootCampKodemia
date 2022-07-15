@@ -1,0 +1,46 @@
+Selectores Avanzados.
+
+========Anotaciones======
+header>nav
+agregar texto { }
+ multiplicar *
+
+ Espaciado interno padding
+ Espaciado Externo Margin
+ shorthands: 
+  margin: top right bottom left;
+
+
+========box sizing======= (En Universal)
+  Por defecto 
+    contentbox
+  borderbox
+
+=====EN UNIVERSAL=======
+box sizing borderbox-box
+margin 0
+
+=====DISPLAY===========
+/* 
+-block 
+  aplicarles propiedades de boxModel: widh, height, 
+  padding, margin, border
+
+-inline
+  -No podemos aplicar width ni height
+  -solo podemos aplicarles margenes horizontales
+    -margin-left
+    -margin-right
+  -Solo podemos aplicar padding horizontales
+    -padding-left
+    -padding-right
+
+-inline block
+  Hibrido  
+    se agrupan en linea y
+    se pueden dar propiedades de boxModel
+*/
+=========================
+
+vertical-align: top;
+  Solo funciona elementos en linea para mandarlos arriba

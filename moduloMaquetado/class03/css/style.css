@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+header{
+background-color: lawngreen;
+border-radius: 8px;
+padding: 15px 30px;
+border: 2px solid red;
+}
+nav{
+  background-color: green;
+  border-radius: 8px;
+  padding: 15px;
+  color: white;
+}
+aside{
+  background-color: orange;
+  border-radius: 8px;
+  padding: 15px;
+  border: 2px solid black;
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+}
+main{
+  background-color: crimson;
+  border-radius: 8px;
+  padding: 15px;
+  color: white;
+  display: inline-block;
+  width: 60%;
+}
+article{
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  border: 2px solid black;
+}
+footer{
+  background-color: slateblue;
+  border-radius: 8px;
+  padding: 15px;
+  display: block;
+}
+span{
+  background-color: yellow;
+  display: inline;
+}
+
+/* 
+-block 
+  aplicarles propiedades de boxModel: widh, height, 
+  padding, margin, border
+
+-inline
+  -No podemos aplicar width ni height
+  -solo podemos aplicarles margenes horizontales
+    -margin-left
+    -margin-right
+  -Solo podemos aplicar padding horizontales
+    -padding-left
+    -padding-right
+
+-inline block
+  Hibrido  
+    se agrupan en linea y
+    se pueden dar propiedades de boxModel
+*/
