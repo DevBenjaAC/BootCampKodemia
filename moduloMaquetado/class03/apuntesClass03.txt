@@ -44,3 +44,106 @@ margin 0
 
 vertical-align: top;
   Solo funciona elementos en linea para mandarlos arriba
+
+======UNIDADES DE MEDIDA==========
+
+ABSOLUTAS
+  valor definido, no depende de nada
+    100 px siempre seran 100px
+    tienen un valor definido
+      -px
+      -cm
+      -mm
+      -pt
+
+RELATIVAS
+  Su valor depende de algo externo.
+  Su valor es relativo a algo
+    -% Relativo al tamaño del padre del elementos
+    
+  ViewPort --> Area visible 
+  -Vw ---> ViewPortWidth
+  -vh ---> ViewPortheight
+
+  REM
+  Relativa al tamaño de fuente del
+  elemento raiz del documento ---> HTML
+
+NAVAGADORES POR DEFAULT
+  html{
+    fontsize: 16px;
+  }
+  1 REM --> 16px (RELATIVO AL HTML--16px)
+
+em --> RELATIVA AL TAMAÑO DE LA FUENTE 
+DEL PADRE MAS CERCANO CON UN FONTSIZE DECLARADO
+
+==============================================
+
+=========COLORIZACION===============
+-palabra clave:
+  green, red, blue, orange
+
+-rgb 
+  (red, green, blue) Rango : 256 y tambien recibe 
+  alpha->Opacidad entre 0-1
+
+-Hexadecimal 0-F
+  #00 00 00
+
+-HSL 
+  recibe 3 valores principales No se rige por rgb, cada valor tiene un significado diferente
+    hue (tono o matiz)
+    saturation (saturacion del color) 0% - 100%
+    lightness (luminicidad del colo)  0% -  50% Neutra
+      se puede agregar alpha 0 - 1 Opacidad
+
+===========SELECTORES AVANZADOS===============
+basicos: 
+  universal---> *
+  tagname---> h1
+  clase---> .
+  id---> #
+
+combinado 
+ejemplo:
+  article.card -->selecciona todos los elementos article que tengan la clase card
+    <article class= "card"> algo </article> CORRECTO
+    <article> algo </article>               INCORRECTO
+
+  .square.blue --> Selecciona todos los elementos que tengan la clase square y blue
+  ejemple
+    <section class="square blue">algo</section>  CORRECTO
+    <section class="square blue">algo</section>  INCORRECTO
+
+========== LA ESPECICIDAD SE SUMA=====
+.square.blue#rafa
+ejemplo
+  <section class="square blue" id="rafa">algo</section>  CORRECTO
+  <section class="square blue">algo</section>            INCORRECTO
+
+DECENDIENTE
+  selectorA      selectorB      selectorC
+  .article .title  
+  --Todos los elementos con clase title que se
+  encuentran dentro de la clase article
+
+  article.card h2
+  --Todos los elementos h2 que se encuentren dentro de un article que tengan la clase card
+
+#header nav ul 
+--Todos los elementos ul que se encuentren dentro de nav que tengan el id header
+
+=======================HOMEWORK===================
+
+Selector de hijo
+Selector adyacente
+Selector hermano
+Selector por atributo
+
+Que es Pseudoclase
+Que es Pseudoelemento
+Posicionamiento
+
+
+
