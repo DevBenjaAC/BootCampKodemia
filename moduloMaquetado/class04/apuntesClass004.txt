@@ -57,6 +57,11 @@ INPARES-->ODD
 =====================
 PENDIENTES:
 Que es Pseudoelemento
+::before
+::after
+::first-letter
+::first-line
+
 Posicionamiento
 ====================
 
