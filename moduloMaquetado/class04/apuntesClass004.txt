@@ -1,5 +1,5 @@
 =======CLASE 4======
-=======================HOMEWORK===================
+=======================HOMEWORK===================================
 
 Selector de hijo======
   El combinador > separa a dos selectores y 
@@ -12,7 +12,7 @@ Selector de hijo======
     background-color: DodgerBlue;
     }
 
-
+==================================================================
 Selector adyacente=======
   Se hace referencia a este selector como selector adyacente 
   o selector del próximo hermano. Sólo seleccionará un elemento 
@@ -21,12 +21,64 @@ Selector adyacente=======
     elemento_anterior + elemento_afectado { estilos }
     elemento anterior 
     
-
+===================================================================
 
     
 Selector hermano========
+  El combinador ~ separa dos selectores y selecciona el segundo
+  elemento sólo si está precedido por el primero y ambos 
+  comparten un padre común.
+    p ~ span {
+      color: red;
+    }
+      <span>Este span no es rojo.</span>
+      <p>Aquí hay un párrafo.</p>
+      <code>Aquí hay algo de código.</code>
+      <span>Aquí hay un span. Es rojo porque va 
+      precedido de un párrafo y ambos comparten 
+      el mismo padre.</span>
 
+================================================================
 Selector por atributo
+  El selector de atributos CSS coincide con los 
+  elementos en función de la presencia o el 
+  valor de un atributo determinado.
+  
+    /* Elementos <a> con un href que contenga "example" */
+    a[href*="example"] {
+      font-size: 2em;
+    }
+        /* Elementos <a> con un atributo title */
+    a[title] {
+      color: purple;
+    }
+
+    /* Elementos <a> con un href que coincida con "https://example.org" */
+    a[href="https://example.org"] {
+      color: green;
+    }
+
+    /* Elementos <a> con un href que contenga "example" */
+    a[href*="example"] {
+      font-size: 2em;
+    }
+
+    /* Elementos <a> con un href que comience con "#" */
+    a[href^="#"] {
+      color: #001978;
+    }
+
+    /* Elementos <a> con un href que termine en ".org" */
+    a[href$=".org"] {
+      font-style: italic;
+    }
+
+    /* Elementos <a> cuyo atributo class contenga la palabra "logo" */
+    a[class~="logo"] {
+      padding: 2px;
+    }
+    ===============================================================
+
 
 Que es Pseudoclase----> INDICE PSEUDOCLASE ESTANDAR
   Una pseudoclase CSS es una palabra clave que se añade a los selectores
