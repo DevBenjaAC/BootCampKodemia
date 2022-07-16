@@ -93,3 +93,9 @@ git push -u origin main
 ===============
 actualiza RAMAS (solo la lista)
 git fetch <remote>
+======================
+git merge
+git merge rama a la que mergchearas ramaQueDeseasMergchear
+========================
+git merge --abort 
+abortar los cambios de merge
