@@ -82,6 +82,7 @@ GITHUB ES UN SISTEMA DESCENTRALIZADO
 ===========
 REMOTO
 git remote -v
+ENLISTA EL REMOTE SINCRONIZADO Y LIGADO
 ORIGIN
 ============
 Agregar remoto 
