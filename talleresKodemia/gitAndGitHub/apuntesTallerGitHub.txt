@@ -8,8 +8,6 @@ Puedes ir al pasado para ver alguna version pasada, con algun commit en especifi
      El comando git add añade un cambio del directorio de trabajo en el entorno de ensayo. 
      De este modo, indica a Git que quieres incluir actualizaciones en un archivo concreto 
      en la próxima confirmación.
-    
-
 
   git commit 
     captura una instantánea de los cambios preparados en ese 
@@ -21,3 +19,25 @@ Puedes ir al pasado para ver alguna version pasada, con algun commit en especifi
     el historial del repositorio. Este comando se usa cuando necesitas 
     buscar una versión concreta de un proyecto o saber los cambios que se 
     introducirán mediante la fusión en una rama de función.
+==========================
+    EDITOR DE TEXTO
+    MD -->
+    #HELLO WORLD
+==========================
+    git status
+      muestra el estado del directorio de trabajo y del área del entorno de ensayo. 
+      Permite ver los cambios que se han preparado, los que no y 
+      los archivos en los que Git no va a realizar el seguimiento. 
+      El resultado del estado no muestra ninguna información relativa al 
+      historial del proyecto.
+
+    git branch 
+      VER BRANCHES
+    
+    git checkout
+      Cambiar de rama y de versiones de commit 
+
+    git checkout -b
+      crear y switchear a la nueva rama
+      
+    
