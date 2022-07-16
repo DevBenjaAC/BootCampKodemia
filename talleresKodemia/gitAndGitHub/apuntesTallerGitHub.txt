@@ -2,7 +2,10 @@ Git ---> Linea de comandos. y sistema de control de versiones.
 GitHub---> Plataforma para git y trabajos colaborativos
 Puedes ir al pasado para ver alguna version pasada, con algun commit en especifico.
   Se pueden hacer nuevas ramas desde una version pasada.
-
+=====================
+git init 
+inicializar proyecto desde local.
+====================
 
   git add 
      El comando git add añade un cambio del directorio de trabajo en el entorno de ensayo. 
