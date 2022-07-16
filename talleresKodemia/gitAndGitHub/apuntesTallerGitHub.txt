@@ -40,4 +40,8 @@ Puedes ir al pasado para ver alguna version pasada, con algun commit en especifi
     git checkout -b
       crear y switchear a la nueva rama
       
+    GitHub
+    CI--> Continuos Integration
+    CD--> Continuos Delivery
+
     
