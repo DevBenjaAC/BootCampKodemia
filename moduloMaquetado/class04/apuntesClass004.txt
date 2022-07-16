@@ -1,1 +1,62 @@
 =======CLASE 4======
+=======================HOMEWORK===================
+
+Selector de hijo======
+  El combinador > separa a dos selectores y 
+  busca solo a los elementos que coindicen con 
+  el segundo selector y que son hijos directos del primero
+    selector1 > selector2 { style properties }
+    
+    span { background-color: white; }
+    div > span {
+    background-color: DodgerBlue;
+    }
+
+
+Selector adyacente=======
+  Se hace referencia a este selector como selector adyacente 
+  o selector del próximo hermano. Sólo seleccionará un elemento 
+  especificado que esté inmediatamente después de otro elemento especificado.
+
+    elemento_anterior + elemento_afectado { estilos }
+    elemento anterior 
+    
+
+
+    
+Selector hermano========
+
+Selector por atributo
+
+Que es Pseudoclase----> INDICE PSEUDOCLASE ESTANDAR
+  Una pseudoclase CSS es una palabra clave que se añade a los selectores
+  y que especifica un estado especial del elemento seleccionado. Por ejemplo, 
+  :hover aplicará un estilo cuando el usuario haga hover sobre el elemento
+  especificado por el selector.
+  :hover PUNTERO SOBRE ELEMENTO
+  :link SITIO VISITADO
+  :focus
+  :Active
+  :enable
+  :disable
+  :checked --> Radios , checkbox
+  
+:first-child-----> primer hijo
+:last-child-----> ultimo hijo
+:nth-child -----> Enesimo hijo (pares o nones, valor especifico, anotacion funcional)
+:first-of-type() ----->primero de su tipo (tipo de elemento)
+:last-of-type() ----->ultimo de su tipo (tipo de elemento)
+:nth-of-type()-------> Enesimo de su tipo()
+:not()------> Negacion  selecciona todos excepto (recibe un selector)
+
+===================================
+PARES--> EVEN
+INPARES-->ODD
+
+
+=====================
+PENDIENTES:
+Que es Pseudoelemento
+Posicionamiento
+====================
+
