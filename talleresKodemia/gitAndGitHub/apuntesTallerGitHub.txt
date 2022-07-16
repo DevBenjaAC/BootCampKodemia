@@ -44,4 +44,52 @@ Puedes ir al pasado para ver alguna version pasada, con algun commit en especifi
     CI--> Continuos Integration
     CD--> Continuos Delivery
 
-    
+    git GitHub
+
+    generar repositorio
+      New repository
+        añadir name
+        añadir description
+        create.
+
+    generar SSH
+      ssh-keygen -r rsa -b 4096 -c "email"
+        enter passphrase
+==============================
+  SSH
+     su función es el acceso remoto a un servidor
+     por medio de un canal “seguro” en el que toda la 
+     información está cifrada.
+  
+  ======================
+  CLONAR repositorio
+
+  git clone "direccion ssh del repo"
+  ==========================
+
+BAJAR cambios
+git pull 
+==================
+BAJAR cambios de una rama
+gir pull main 
+============
+REPOS REMOTOS
+============
+GITHUB ES UN SISTEMA DESCENTRALIZADO
+===========
+REMOTO
+git remote -v
+ORIGIN
+============
+Agregar remoto 
+git remote add ORIGIN
+============
+borrar remoto
+git remote rm <nombre del remoto>
+SUBIR CAMBIOS 
+git push ORIGIN main
+salvar el remoto 
+git push -u origin main
+===============
+actualiza RAMAS (solo la lista)
+git fetch <remote>
