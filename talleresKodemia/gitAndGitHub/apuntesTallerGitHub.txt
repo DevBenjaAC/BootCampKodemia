@@ -1,0 +1,23 @@
+Git ---> Linea de comandos. y sistema de control de versiones.
+GitHub---> Plataforma para git y trabajos colaborativos
+Puedes ir al pasado para ver alguna version pasada, con algun commit en especifico.
+  Se pueden hacer nuevas ramas desde una version pasada.
+
+
+  git add 
+     El comando git add añade un cambio del directorio de trabajo en el entorno de ensayo. 
+     De este modo, indica a Git que quieres incluir actualizaciones en un archivo concreto 
+     en la próxima confirmación.
+    
+
+
+  git commit 
+    captura una instantánea de los cambios preparados en ese 
+    momento del proyecto. Las instantáneas confirmadas pueden 
+    considerarse como versiones "seguras" de un proyecto
+
+  git log 
+    El comando git log es una herramienta básica de Git para explorar
+    el historial del repositorio. Este comando se usa cuando necesitas 
+    buscar una versión concreta de un proyecto o saber los cambios que se 
+    introducirán mediante la fusión en una rama de función.
