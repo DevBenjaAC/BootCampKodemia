@@ -1,0 +1,38 @@
+Posicionamiento, transiciones, media queries y responsividad.
+
+=========POSICIONAMIENTO==============
+
+
+el flujo normal de los elementos y el espacio que ocupa.
+
+position: Modificar el flujo de los elementos
+
+
+Estatic================= VALOR POR DEFECTO
+"el elemento persisite en el lugar que le corresponde." 
+  El valor por defecto.
+
+Relative
+Inicialmente permanece en su flujo normal hasta que se modifican cordenadas.
+  Se activan las propiedades, TOP, LEFT, RIGHT, BOTTOM.
+    Mantiene su espacio original a pesar de que haya sido modificado.
+
+Absolute 
+El elemento es removido del flujo normal 
+  Se posiciona en base al ancestro màs cercano posicionado. 
+    Si no encuentra ancestro se posiciona respecto al viewport.
+      Se activan las propiedades, TOP, LEFT, RIGHT, BOTTOM.
+
+Fixed
+El elemento es totalmente removido del flujo normal
+  Siempre se posiciona respecto al viewport
+    Fijo con respecto al viewport
+      Se activan las propiedades, TOP, LEFT, RIGHT, BOTTOM.
+
+STICKY
+Mezcla entre relative y fixed
+  Cuando hay scrooll se posiciona al contenedor mas cercana
+    Se activan las propiedades, TOP, LEFT, RIGHT, BOTTOM.
+   
+===========================================================
+
