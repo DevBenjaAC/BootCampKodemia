@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  height: 300vh;
+}
+p{
+  margin: 10px 0;
+
+}
+.header{
+  height: 100px;
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  position: sticky;
+  top: 0;
+}
+.letter{
+  background-color: yellow;
+  height:50px;
+  font-size: 50px;
+  position: sticky;
+  top: 100px;
+}
