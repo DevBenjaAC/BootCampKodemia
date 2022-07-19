@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+}
+body{
+  font-size: 16px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #e0e8ff;
+  width: 50px;
+}
+.card{
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid black;
+  width:400px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  align-content: center;
+  box-shadow: 5px 5px hsl(224, 23%, 55%);
+}
+.icon{
+  margin: 0 20px;
+  display: inline-block;
+}
+.content{
+  color: #a7a8b5;
+  margin-top: 20px;
+}
+img{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.bg{
+  width: 400px;
+}
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+div{
+  display: inline-block;
+  padding-bottom:15px;
+}
+.plan{
+  display: inline-block;
+  margin: 20px 5px;
+  align-items: center;
+}
+.plan>h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.plan>p{
+  color: #a7a8b5;
+}
+section>.pay{
+  position: relative;
+  left: 15%;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  margin: 10px 0 10px;
+  display: block;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 10px 10px 20px silver;
+  top: 30px;
+}
+section>.pay:hover{
+  width: 310px;
+  height: 60px;
+  left: 14%;
+  top: 29px;
+  transition: 150ms;
+  font-size: 15px;
+  margin-bottom: 0;
+  box-shadow:10px 0px 15px silver;
+}
+section>.cancel{
+  position: relative;
+  left: 15%;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  display: block;
+  background-color: white;
+  border: none;
+  color: dark silver;
+  top: 40px;
+}
