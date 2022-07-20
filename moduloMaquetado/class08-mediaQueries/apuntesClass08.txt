@@ -1,0 +1,121 @@
+meta viewport
+content width=device-width initial-scale=1.0
+
+Restringir al usuario dentro de content
+  user-scalable-no
+  minimun-scale
+  maximum-scale
+
+viewport
+  Area visible del navegador
+
+Devices
+  Mobile Portrait 320px-550px
+  Mobile Landscape 550px-768px
+
+  Tablet Portrait 768px-1024px
+  Tablet Landscape 1024px-1200px
+          Laptop
+          Pc
+  Desktop High > 1200px
+
+  =================BREAKE POINT===================
+  Mobile <= 767px
+  Tablet > 768px <=1023px
+  Desktop > 1024 <=1199px
+  Desktop Hight > 1200px
+
+=====================FILOSOFIA====================
+Mobile First
+  Describir primero el estilo en mobile
+
+
+minWidth >=
+maxwidth <=
+Se aplican estilos en cascada y con media Queries
+se redistribuyen estilos y elementos.
+
+==========FLEX-BOX==================
+Modulo de Css
+Revoluciona totalmente la maquetacion
+  FlexBox
+  CssGrid
+
+  Flex__Container (contenedor padre)
+  Flex__Items (hijos directos)
+
+
+ORIENTADO EN EJE PRINCIPAL
+   Izquierda a Derecha -- Main axis
+
+EJE SECUNDADIRIO
+  Cross axis
+  Arriba a Abajo
+
+display: Flex
+          Grid (otra historia)
+
+Flex__Container{
+  display: Flex
+}
+Flex-direction
+row --> izquierda-derecha y arriba-abajo
+  column --> arriba -abajo y izquierda-derecha
+    row-reverse --> derecha-izquierda y abajo-arriba
+      column-reverse --> abajo-arriba y izquierda-derecha
+        flex-wrap-No wrap (por defecto)
+          wrap: se ajustan a la siguiente fila
+
+
+Justify content
+  Alinear a mis flex-items en el eje PRINCIPAL
+    flex-star
+      inicio
+    flex-end
+      final
+    center
+      centrar
+    space-between
+      primer elemento al inicio y ultimo al final
+    space-around
+      distribuye el espacio (los adyacentes se suman)
+    space-evenly
+      distribuye mismo espacio a todos los elementos
+
+alingth items 
+  Alinear a mis flex-items en el eje SECUNDARIO
+    stretch es por defecto. (heigth Definido)
+      flex-star
+        inicio
+      flex-end
+        final
+      center
+        centrar
+      baseline
+      se alinea a la base del contenido
+
+=============
+alingth-content
+Alinear a mis flex-items en el eje SECUNDARIO
+flex-wrap en wrap ACTIVO
+  flex-star
+    inicio
+  flex-end
+   final
+  center
+    centrar
+  space-between
+     primer elemento al inicio y ultimo al final
+  space-around
+     distribuye el espacio (los adyacentes se suman)
+  space-evenly
+    distribuye mismo espacio a todos los elementos
+
+
+INVESTIGAR==============
+  FLEX ITEMS
+  Sass
+Jugar el sapo
+
+
+

@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+
+}
+.square{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  margin: 0 auto;
+}
+@media(min-width:768px) {
+  .square{
+    background-color: red;
+  }
+}
+@media (min-width: 1024px) and (orientation: portrait) {
+  .square{
+    background-color: purple;
+    border-radius: 50%;
+  }
+}
+@media screen (min-width: 1440px) {
+  
+}
