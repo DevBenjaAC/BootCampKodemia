@@ -111,6 +111,25 @@ flex-wrap en wrap ACTIVO
   space-evenly
     distribuye mismo espacio a todos los elementos
 
+ORDER
+-4 -3 -2 -1 0 1 2 3 4
+
+aling-self
+  Alinea un elemento flex a lo largo del eje transversal,(y sobre x)
+   anulando el valor de aling.items
+
+  flex-wrap
+    nowrap
+        cada elemento se ajusta en una sola linea
+    wrap
+        los elementos se envuelven alrededor de las
+        las lineas adicionales
+    wrap-reverse
+        Los elementos se envuelven alrededor de las
+        lineas adicionales en reversa
+
+Flex-direction 
+  Define la direccion del eje PRINCIPAL
 
 INVESTIGAR==============
   FLEX ITEMS
