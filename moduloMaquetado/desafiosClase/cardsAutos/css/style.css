@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container{
+  height: 1050px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+  border: 0px solid #ccc;
+  height: 350px;
+  width: 280px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.card__icon{
+  display: flex; 
+  justify-content:flex-start;
+  width: 60px;
+}
+.card__title{
+  font-size: 30px;
+  color: white;
+  font-family:'Big Shoulders Display', cursive;
+}
+.card__paragraph{
+  font-family: 'Lexend Deca', sans-serif;
+  color: white;
+  font-size: 13px;
+  font-weight: lighter;
+}
+.card__button{
+  border-radius: 50px;
+  width: 125px;
+  height: 33px;
+  border: 2px solid white;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+.card__button--sedans{
+  background-color:white;
+  color: #e18527; 
+}
+.card__button--sedans:hover{
+  color:white;
+  background-color:#e18527;
+}
+.card__button--suvs{
+  background-color: white;
+  color:#016972;
+}
+.card__button--suvs:hover{
+  background-color: #016972;
+  color:white;
+}
+.card__button--luxury{
+  background-color: white;
+  color:#00403f;
+}
+.card__button--luxury:hover{
+  background-color:#00403f;
+  color: white;
+}
+.card--sedans{
+  background-color: #e18527;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card--suvs{
+  background-color:#016972;
+}
+.card--luxury{
+  background-color:#00403f;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media(orientation: landscape) and (min-width: 1024px){
+  .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+  }
+  .card--sedans{
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 10px;
+  }
+  .card--luxury{
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 10px;
+  }
+
+}
