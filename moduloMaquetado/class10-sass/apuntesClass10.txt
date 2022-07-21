@@ -1,0 +1,42 @@
+Css-Sass PREPROCESADOR
+========css WITH SUPERPOWERS==========
+Necesitamos un compilador
+   VENTAJAS
+      Funciones
+      ciclos
+      if
+      MAS FACIL
+
+NO REMPLAZA Css
+herramienta para escribir codigo modular
+mas rapido
+
+Un preprocesador es un programa separado 
+que es invocado por el compilador antes 
+de que comience la traducción real.
+
+Sintaxis
+  .sass 
+    No usa llaves, 
+    cada bloque es tabulacion
+
+  .scss
+    Usa llaves
+    style.scss
+    
+  watchearlo
+    c¡variable$primary color primario
+    se pueden usar sintaxis de html
+
+    Selector & amperson
+
+    anidados
+
+    .button{
+      background: $primary
+    }
+    
+
+
+
+

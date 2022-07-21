@@ -1,3 +1,7 @@
+Media Queries
+    Las media queries (en español "consultas de medios") 
+    son útiles cuando deseas modificar tu página web o 
+    aplicación en función del tipo de dispositivo
 meta viewport
 content width=device-width initial-scale=1.0
 
