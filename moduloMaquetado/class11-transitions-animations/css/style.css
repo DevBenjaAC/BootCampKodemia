@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  margin: 60px;
+}/*# sourceMappingURL=style.css.map */

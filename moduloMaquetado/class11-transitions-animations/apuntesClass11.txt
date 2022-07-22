@@ -1,0 +1,84 @@
+TRANSFORM
+&--transform{
+  transform:transtale(x,y)
+  transform: rotate(60deg)
+  transform: scale(1.1)
+  transform: skewX(45deg)
+}
+
+scalar
+transtale(x,y)
+
+Valores angulares:
+  0-360 deg
+  0-400 grad
+  0-6,28 rad
+
+
+=========================
+TRANSITION al elemento NO AL HOVER 
+&--transition{
+&:hover{
+  background-color:cyan;
+
+  }
+}
+
+Propiedades que permiten definir una transition
+transition-property:background-color, opacity ;
+transition-duration: 1s;
+transition-delay: Retraso 2s;
+transition-timing-function: ease; define LA VELOCIDAD
+  ease
+    easein 
+      linear
+        cubic-bezier
+
+===========================
+ANIMATION
+NOSOTROS DEFINIMOS CONTROL SOBRE ANIMACION
+Sintaxis orientado a: 
+  fotogramas
+    define ciclo en la animacion en distintos puntos
+
+  keyframe
+  aplicacion de propiedades de animacion a un elemento
+    animation-name
+    animation-durationanimation-timing-function
+    animation-iteration.count
+    animation-direction
+    animation-delay
+    animation-play-state pausar
+
+    @keyframe cambiar-color{
+      from{
+        background-color: crimson;
+      }
+      to{
+        background-color: hotpink;
+      }
+    }
+    @keyframe mover{
+      0%{
+        transform:translate(0);
+      }
+      25%{
+        transform:translate(100%);
+      }
+      50%{
+        transform:translate(100%, 100%);
+      }
+      75%{
+        transform:translate(0,100%);
+      }
+      100%{
+        transform:translate(0)
+      }
+    }
+
+    &--animation{
+      animation-name: cambiar color
+      animation-duration: 2s;
+      animation-iteration-count:infinite;
+
+    }
