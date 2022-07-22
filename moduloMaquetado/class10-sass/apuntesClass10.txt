@@ -30,13 +30,56 @@ Sintaxis
 
     Selector & amperson
 
+
+
     anidados
+======================
+Nesting
+Se vuelve mas facil de ver para los devs
 
     .button{
       background: $primary
     }
     
+span:firstChild
 
+VARIABLES
+$primary: red;
 
+==========MIXINS==========
+conjunto de codigo reutilizable, 
+@mixin center {
 
+}
 
+.article{
+  @include center;
+}
+
+MIXINS DINAMICOS
+======
+@mixin bg-img($url){
+background-img: url ($url-img $bg-size $bg-position);
+background-repeat: no-repeat;
+background-size: $bg-size;
+background-position: $bg-position
+}
+$primary: red;
+
+======================
+
+mixin responsive ($breakpoint){
+  @if ($breakpoint == "medium"){
+    @media screen and (min-width: $medium){
+      @content;
+    }
+  }
+}
+CODIGO MODULAR
+_base.scss
+_variables.scss
+_mixins.scss
+
+@use'./variables.$primary'
+
+MIXINS.responsive
