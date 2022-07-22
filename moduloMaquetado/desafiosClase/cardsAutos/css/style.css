@@ -83,7 +83,6 @@
 }
 @media(orientation: landscape) and (min-width: 1024px){
   .container{
-      display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
