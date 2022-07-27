@@ -1,0 +1,44 @@
+Herramienta de desarrolaldores que agiliza la creacicion
+
+  freamwork- Esta fuera de codigo
+  libreria- Esta dentro de codigo
+
+Coleccion de clases con Declaraciones predefinidas
+que pueden utilizarce para crear componentes
+
+Nosotros podemos crear libreria de css 
+
+bootstrap
+  MOBILE FIRST
+  SISTEMA DE REJILLA
+    ORDENA ELEMENTOS DE 12 COLUMNAS
+  PERSONALIZABLE CON SASS
+  PERSONALIZABLE CON VARIABLES DE CSS 
+
+
+INSTALACION:
+  Content Delivey Network
+  En link: <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+=========================
+INFIJOS
+  sm 
+  md 
+  lg 
+  xl 
+  xxl 
+========================
+GRID SYSTEM
+WebSISTEM
+.container .row 
+
+container es contenedor principal
+row es la posicion de fila
+DEBE sumar 12
+
+RESPONSIVE
+col-12 col-md-6 col-lg-3
+
+container al 100%
+  container-md 
+
+El inspector te ayuda a saber de donde vienen las clasespara poder debugear
