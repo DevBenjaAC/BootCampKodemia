@@ -1,0 +1,39 @@
+LIBRERIAS Y FREAMWORK 
+=======================
+Freamwork
+  Kit de herramientas y componentes que definen como se desarrolla un proyecto.
+    Asegura compatibilidade entre componentes
+      angular
+      Vue
+      NextJs
+      ExpressJS
+      Laravel
+      Django
+      bootstrap es un freamwork de css
+
+libreria
+  CONJUNTO DE FUNCIONALIDADES
+    resuleve varias cosas de algo especifico
+      en un proyecto puedes implmetar tantas libreras como quieras
+        se ajustan al proyecto 
+          react js  
+          Jquery
+          charjs
+          Luxon
+
+bootstrap
+Link de bootstrapCSS
+Link de hojas de estilo
+Link de script antes de cierre de body
+
+Bootstrap viene con tres contenedores diferentes:
+
+.container, que establece un max-widthen cada punto de interrupción de respuesta
+.container-{breakpoint}, que es width: 100%hasta el punto de interrupción especificado
+.container-fluid, que está width: 100% en todos los puntos de interrupción
+
+
+container
+
+container
+
