@@ -32,8 +32,8 @@ Bootstrap viene con tres contenedores diferentes:
 .container-{breakpoint}, que es width: 100%hasta el punto de interrupción especificado
 .container-fluid, que está width: 100% en todos los puntos de interrupción
 
-
-container
-
-container
+container-fluid
+  container
+    row
+      col 
 
