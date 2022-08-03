@@ -1,0 +1,79 @@
+Pensamiento estructurado
+identificar la estructura del Pensamiento
+
+Tipos de pensamiento:
+
+  *Estructurado
+    semantica razonada y ordenada
+      no se limita al desarrollo cientifico, se extiende en general a la vida cotidiana
+        Definir el problema
+        Analisis del problema
+        Definicion de herramientas
+        Analisis de herramientas
+        Definicion de soluciones
+        Analisis de soluciones
+        Implementar soluciones
+        Evaluaciones
+
+
+  *Paralelo o Lateral
+    Busca soluciones novedosas,
+      creatividad y busqueda de nuevas opciones, mejora cognitiva.
+      Se usa deforma cotidiana 
+      Habilidades que se pueden desarrollar,
+      elementos:
+        pensamiento logico
+        creatividad
+        comprobacion de suposiciones
+        hacer preguntas correctas
+          cientificos hicieron preguntas correctas para llegar a buenas teorias
+          
+
+  *Lógico
+    Capacidad para entende lo que nos rodea
+      capacidad para entender los objetos alrrededor
+      Permite que nuestros pensamientos esten organizados
+      se desarrolla de manera lineal
+      se emplea para resolver procesos establecidos.
+        Procesos:
+          Analitico
+          Racional
+          Se desarrolla de forma lineal
+          Preciso y Exacto
+          Es deductivo
+          Permite organizar los pensamientos
+
+La programacion se realiza mediante algoritmos.
+
+PARADIGMA
+  Teorias sociales
+  Modelo o mapa de como vemos el mundo
+    Estructurado
+      ensamblador
+    Funcional
+      Funciones que existen para poder ser llamado.
+    POO
+
+    PASOS A SEGUIR PARA PROGRAMAR
+    Analisis del problema
+    Diseño de algoritmo
+    Codificacion
+    Ejecucion y prueba
+
+Propocisiones simples y compuestas
+
+  Propocisiones simples-- Verdadero y Falso
+      NO tienen oraciones componentes afectadas por conjunciones, disyunciones, 
+      or 
+      and 
+      not 
+
+Propocisiones compuestas
+
+    Tienen oraciones componentes afectadas por conjunciones
+    NEGACION NOT 
+    y AND 
+    o OR 
+
+PUERTAS LOGICAS.
+
