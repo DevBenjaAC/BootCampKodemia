@@ -1,0 +1,66 @@
+Operadores en Programacion
+  Aritmeticos
+    suma +
+    resta -
+    multiplicaicon *
+    division /
+    modulo %
+    exponencial **
+
+  Comparativos
+    == igual igual
+    === absolutamente igual
+    > mayor que
+    > menor que
+    >= mayor o igual
+    <= menor o igual
+    <> distinto NO es igual !
+
+  Logicos
+    AND &&  Y
+    OR ||  O
+    NOT ! NEGACION
+
+DATO 
+  informacion sobre algo concreto 
+  algo que manipulas, informacion, d¡sirve para deducir las consecuencias derivadas
+  de un hecho.
+
+
+DATOS ESTRUCTURADOS
+  se organizan para admitir aplicaciones transaccionales y analiticas.
+  Los datos estructurados se alamcenan
+  más comunmente en bases de datos relaciones
+  Tienden a ser tablas
+  Order_id 
+    Carol 
+
+DATOS SEGUN SU ESTRUCTURA
+  semiestructurados
+  Son flexibles y se pueden actualizad sin necesidad de cambiar el esquema para cada
+  registro individual
+  {
+    Order_id: "carol danvers"
+
+  }
+
+  DATOS SEGUN SU ESTRUCTURA
+  No estrucutrados no se organizan de manera distinguible o predifinida.
+  Los almacenes comunmente .jpg .png .mp3 
+
+DATOS A NIVEL MAQUINA
+  Un conjunto de secuencia de bits( Digitos 0 o 1)
+  
+DATOS BASICOS NUMERICOS
+   Enteros, positivos y negativos.
+   Flotantes, DECIMALES
+
+DATOS BOLEANOS
+  True
+  False
+
+DATO CADENA STRING 
+  Se encuentran delimitados por comillas
+    console.log("hola koders")
+
+

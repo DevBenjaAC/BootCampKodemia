@@ -86,3 +86,10 @@ Propocisiones compuestas
 
 PUERTAS LOGICAS.
 
+^(y) Conjuncion 
+(o) Disyuncion 
+- !(negativo) Lo contrario
+-> (si... entonces) Condicional
+<-> (si y solo si) Bicondicional
+Δ (o bien... o bien) Disyuncion Exclusiva
+
