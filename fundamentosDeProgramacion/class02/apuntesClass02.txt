@@ -63,4 +63,35 @@ DATO CADENA STRING
   Se encuentran delimitados por comillas
     console.log("hola koders")
 
+VARIABLES
+  QUE ES
+    se puede guardar en un espacio de memoria.
+      nombrar el espacion como queramos.
+        edad == 25 
+
+Constantes
+  Valores fijos
+
+Variables 
+  El valor puede cambiar a medida en que se ejecuta el Programa
+
+COMO DECLARAR VARIABLES EN LENGUAJES TIPADOS
+Número          edad                       =            20
+Tipo de dato    Nombre de la variable     Operador      Valor inicial
+
+COMO DECLARAR VARIABLES EN JS
+let                 edad               =           20 
+Tipo de variable    Nombre variable    Operador    Valor inicia
+
+PALABRAS RESERVADAS
+let
+var 
+cons
+
+NOMENCLATURAS
+camelCase
+Snake_case
+PascalCase
+kebab-case 
+
 
