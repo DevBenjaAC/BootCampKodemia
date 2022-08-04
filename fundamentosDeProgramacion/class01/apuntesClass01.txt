@@ -60,7 +60,16 @@ PARADIGMA
     Codificacion
     Ejecucion y prueba
 
-Propocisiones simples y compuestas
+Propocisiones simples y complejas
+Simples  
+  Sentencias o afirmaciones
+    El mundo es redondo:
+      Verbo, sutantivo, adjetivo, preposicion.
+        SOLO se responden con VERDADERO o FALSO 
+  
+  COMPLEJAS 
+    Contienen algun tipo de operador logico.
+  
 
   Propocisiones simples-- Verdadero y Falso
       NO tienen oraciones componentes afectadas por conjunciones, disyunciones, 
