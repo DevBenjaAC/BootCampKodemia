@@ -1,0 +1,50 @@
+Algoritmos
+  Conjunto de operaciones DEFINIDAS, ORDENADO y FINITO para resolver problemas.
+    Manuales
+    Matematicas
+    Recetas de cocina
+      Se representan por medio de Pseudocodigo o diagrama de flujo.
+        Es una representacion grafica de un algoritmo.
+
+Pseudocodigo
+  El pseudocódigo ofrece la posibilidad de escribir algoritmos lógicos
+  que indiquen una serie de instrucciones secuenciales.
+
+PODER ESCRIBIR EL CODIGO DE MANERA VISUAL
+
+Programa
+Un programa es un conjunto de pasos lógicos escritos en un 
+lenguaje de programación que nos permite realizar una tarea específica. 
+
+Estructura de control
+  Controlan la secuencia del flujo de ejecucion.
+
+    *secuenciales  
+      una accion sigue despues de otra en secuencia
+        tiene entrada y salida
+
+    *seleccion o condicionales
+      Elige que sentencias se ejcutan en funcion a una condicion
+        se usan para tomar decisiones logicas
+          simples
+            if
+              Estrucuturas de control selectiva simple (ROMBO) si es verdadera realiza la accion 
+                si se aplica la condicion entonces se realiza la accion
+
+          dobles
+          multiples
+            Switch 
+              existen mas de una opcion disponible.
+        
+      
+    *iteracion o repetitivas
+      se ocupan para resolver problemas donde sea necesario repetir un determinado
+      numero de veces un conjunto de instrucciones
+  
+  
+      
+      
+
+
+
+

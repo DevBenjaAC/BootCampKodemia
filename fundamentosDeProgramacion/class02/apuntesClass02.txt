@@ -2,7 +2,7 @@ Operadores en Programacion
   Aritmeticos
     suma +
     resta -
-    multiplicaicon *
+    multiplicacion *
     division /
     modulo %
     exponencial **
