@@ -77,3 +77,33 @@
 //   }else console.log(`El orden es ${c}, ${b}, ${a}`)
 // }
 //=====================================================================================================
+// switch con sintaxis simple para saber que valor tiene num de promt
+// alert("Hola soy la Mac de ben!");
+// let num =prompt("Dame un numero perrito 😉","3");
+// console.log(typeof(num))
+// switch(num){
+//   case "1": console.log(`${num} tiene el valor de 1`);
+//   break;
+//   case "2": console.log(`${num} tiene el valor de 2`);
+//   break;
+//   case "3": console.log(`${num} no tiene el valor ni de 1 ni de 2`)
+//   break;
+//   default: console.log("introduce otro numero")
+// }
+
+// // switch con sintaxis simple Evalua si un numero es par o impar
+// let numero = prompt("Dame un numero y adivinare si es par o impar 😉","5")
+// switch(numero){
+//   case "1": 
+//   case "3":
+//   case "5": 
+//   case "7": 
+//   case "9": 
+//   console.log(`${numero} es impar`);
+//   break;
+//   case "2":
+//   case "4":
+//   case "6":
+//   case "8":
+//   console.log(`${numero} es par`);
+// }
