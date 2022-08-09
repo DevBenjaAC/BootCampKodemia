@@ -1,0 +1,21 @@
+js
+Vulnerable a amenzas
+puede ejecutar codigo malicisoso en la computadora
+No siempre es compatible
+los fragmentos de codigo JS son bastantes grandes
+
+COMO agregar JS a html
+JAVA !== JAVASCRIPT
+
+//comentario de una linea
+
+/* 
+comentarios en varias lineas 
+
+*/
+
+
+var
+let
+const
+

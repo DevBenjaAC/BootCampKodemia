@@ -1,0 +1,10 @@
+Funciones
+
+function funcionConPar (nmbre, edad) {
+  console.log("mi nombre es" , nombre, "mi edad es:", edad);
+
+}
+funcionConPar("areli", 35);
+
+
+PARAMETROS CON DEFECTOS
