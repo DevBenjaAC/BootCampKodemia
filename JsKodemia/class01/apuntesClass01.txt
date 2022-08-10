@@ -1,0 +1,15 @@
+JS Introduccion.
+  nativo al navegador
+  TODOS los navegadores entienden JS
+
+  Backend Desktop loT
+  Cuando entiendes debajo de la falda de js puedes dominar el navegador
+
+  Se puede utilizar para app de escritorios
+    Desktop
+    Arduino
+    Servidores
+    Backends
+
+
+  loT Automatizacion de las cosas, 
