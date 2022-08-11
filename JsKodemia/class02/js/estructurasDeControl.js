@@ -35,37 +35,40 @@ if (logueado && tdc) {
   console.log("el usuario no tiene tarjeta de credito o no esta logueado");
 }
 
-
 /**
  * switch valida en que caso esta asignada la variable
  */
 
 let paso = 0;
-switch(paso){
+switch (paso) {
   case 1:
-    console.log('Datos personales');
+    console.log("Datos personales");
     break;
   case 2:
-    console.log('Datos academicos');
+    console.log("Datos academicos");
     break;
   default:
-    console.log('Aun no hay datos que llenar');
+    console.log("Aun no hay datos que llenar");
 }
 
 /**
  * EJERCICIOS
- * 1 Generar un programa en js que te diga si un numero es mayor que otro o no 
+ * 1 Generar un programa en js que te diga si un numero es mayor que otro o no
  * //Datos numericos Enteros
- * //declarar variable Resultado 
+ * //declarar variable Resultado
  */
 
 let numero1 = 5;
 let numero2 = 10;
 let resultadoFinal;
-if(numero1> numero2){
-  let resultadoFinal =numero1;
-  console.log(`el ${resultadoFinal} es mayor`)
-}else{
-  let resultadoFinal =numero2;
-  console.log(`el ${resultadoFinal} es mayor`)
+if (numero1 > numero2) {
+  let resultadoFinal = numero1;
+  console.log(`el ${resultadoFinal} es mayor`);
+} else {
+  let resultadoFinal = numero2;
+  console.log(`el ${resultadoFinal} es mayor`);
 }
+/**
+ * Ejercicio 2
+ * 2 Generar
+ */
