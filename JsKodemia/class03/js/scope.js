@@ -1,3 +1,13 @@
+function discoteca (edad){
+  if (edad < 18) {
+    return; //SALIDAS TEMPRANAS
+  }else{
+    console.log('que baile');
+  }
+}
+discoteca(18);
+discoteca(15);
+
 let variableGlobal = 15;
 
 function saludar(){
@@ -15,6 +25,22 @@ let arrowFunction =() => { // que son las arrowFunction y sus diferencias con la
 
 }
 
+let objeto = {  //PROGRAMACION DINAMICA TODO ES DINAMICO TODO SON OBJETOS
+  saludar: function() {
+    console.log('HOLA');
+  }
+}
+objeto['saludar']();  //
+objeto.saludar;
+
 /**
  * js tiene callstack por dentro abajo de la falda
+ * forma compacta de definir funciones, con ciertas caracteristicas desde sintaxis NO tiene palabra RESERVADA FUNCTION
  */
+let persona = {
+  saludar: function(){
+    console.log(hola);
+  }
+}
+let funcion = 'saludar';
+objeto[funcion]();

@@ -54,13 +54,17 @@ console.log('esto se deberia imprimir?')
 
 function discoteca (edad){
   if (edad < 18) {
-    return;
+    return; //SALIDAS TEMPRANAS
   }else{
     console.log('que baile');
   }
 }
 discoteca(18);
 discoteca(15);
+
+/**
+ * ESCOPE
+ */
 
 //Expresion  --> Util para callbacks/ Termino de primer orden /funciones compartidas /parametros de otra funcion.
 let generarNombreCompleto = function(texto1, texto2){
