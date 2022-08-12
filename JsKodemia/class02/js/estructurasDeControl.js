@@ -72,3 +72,13 @@ if (numero1 > numero2) {
  * Ejercicio 2
  * 2 Generar
  */
+let myCity = "puebla";
+let bYear = 1995;
+let iam = "benja";
+let stature = 1.85;
+let theSkyBlue = true;
+console.log(`hola yo soy ${iam} y vivo en ${myCity}`);
+let pawsTable = 4;
+let bMonth = "october";
+let favoriteSerie = "How I Meet Your Mother";
+const PII = 3.1416;
