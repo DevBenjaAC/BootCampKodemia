@@ -24,22 +24,22 @@ Javascript es síncrono pero Nodejs es asíncrono, V8 el motor de JS que utiliza
 Callback Hell
  */
 
-let padre = (hijo1, hijo2, hijo3) => {
-  hijo2();
-  hijo1();
-  hijo3();
-};
-let fun1 = () => {
-  console.log("funcion hijo 1");
-};
-let fun2 = () => {
-  console.log("funcion hijo 2");
-};
-let fun3 = () => {
-  console.log("funcion hijo 3");
-};
+// let padre = (hijo1, hijo2, hijo3) => {
+//   hijo2();
+//   hijo1();
+//   hijo3();
+// };
+// let fun1 = () => {
+//   console.log("funcion hijo 1");
+// };
+// let fun2 = () => {
+//   console.log("funcion hijo 2");
+// };
+// let fun3 = () => {
+//   console.log("funcion hijo 3");
+// };
 
-padre(fun1, fun2, fun3);
+// padre(fun1, fun2, fun3);
 
 
 /*
@@ -141,4 +141,25 @@ string = 'alberto';
 
 let obj = new Object();
 let str = new string();
+
+/**
+ * Exercise callback.timeOut
+ */
+
+ let padre = (hijo1, hijo2, hijo3) => {
+  setTimeout(hijo1, 2000);
+  setTimeout(hijo2, 4000);
+  setTimeout(hijo3, 6000);
+};
+let fun1 = () => {
+  console.log("yo soy la funcion hijo 1");
+};
+let fun2 = () => {
+  console.log("yo soy la funcion hijo 2");
+};
+let fun3 = () => {
+  console.log("yo soy la funcion hijo 3");
+};
+
+padre(fun1, fun2, fun3);
 
