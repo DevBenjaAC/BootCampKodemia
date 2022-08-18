@@ -15,3 +15,18 @@ let fun3 = () => {
 
 padre(fun1, fun2, fun3);
 
+//Saludar cada dos segundos
+
+
+//Crear una funcion que te salude y
+
+/*
+*haz que se ejecute despues de 10 segundos de espera
+*
+*/
+
+
+nombre, imagen, id, obtener la url en formato 
+{nombre
+
+}
