@@ -33,3 +33,5 @@ carros.forEach((carro) => {
  * splice () = Borra o agrega elemento de acuerdo con el indice especificado
  * 
  */
+
+//  Retornar un objeto con los nombres de los usuarios ordenados por edad, de mayor a menor
