@@ -1,0 +1,181 @@
+product owner-> voz del cliente
+Scrum Master-> Encargado del proceso/Facilitador
+Scrum Team-> Saben como y que tan rapido el trabajo es entregado.
+
+Ceremonias:
+Daily-> 15 Minutos-Saber en que se esta trabajando
+Planning-> 8hrs por cada mes de spritnt
+Review 4 horas poca cada mes de sprint
+retrospective 4 horas por cada mes de sprint
+sprint 1 a 6 semanas
+
+Epicas-> Historia de usuario de gran tamaño
+Historia de usuarios-> Requerimientos de los clientes//Funcionalidad
+
+Ejemplo Epica: 
+  Una app movil para android, ios y web
+  Ecommerse con pasarela de pagos
+
+Nombre del proyecto
+que es lo que solucionamos
+Una descrpcion del proyecto
+
+Roles:
+Product owner -> 
+  Son personas que vienen de carreras administrativas, 
+  la voz del cliente, baja el product Backlog,
+  Refactoriza el product Backlog, Su rol es decisivo para aceptar cambios en Backlog
+  El acepta o rechaza el producto construido
+  Ayuda a stakeholder a encontrar lo que necesitan y no lo que desean
+
+Product Backlog -> 
+  Requerimientos y caracteristicas del cliente// 
+  EPICAS en su mayoria para desmenusar en Historias de usuarios
+
+Scrum Team->
+  Celulas de desarrollo
+  Equipos Autoorganizados-> Facultad de saber cuanto le tardara un feature, implementar nuevas tecnologias
+  10 personas normalmente //8 desarrolladores y scrum Master & product owner
+  Contruyen productos de calidad en la construccion.
+  Tienen completa autoridad para cumplir el objetivo, no confundir autoridad con anarquia.
+
+
+Scrum Master->
+  Reponsable del desarrollo entero de scrum y de asesorar y coachear a los otros roles.
+  funge como lider y motivador al uso de scrum.
+  es el facilitador del Equipo
+  se asegura que el equipo mantenga una buena disciplina
+  promueve valores agiles en el equipo // transparencia, honestidad, perseverancia.
+  mantiene al equipo una mentalidad de "hacer las cosas correctamente".
+  Certificacion incrementa sueldos y experiencia.
+
+Stake Holder->
+  clientes
+  users 
+  sponsors
+  scrum guidance body-> Personas que guian el marco de trabajo
+  Vendedores son las personas que tienen el contacto con el cliente,
+  prove de los servicios de la empresa.
+
+Proceso scrum ->
+  Inicio
+    Crear la vision del proyecto
+    Identificar al SM y stakerholder
+    formar al st 
+    desarrollar epicas
+    crear backlog priorizado 
+    llevar a cabo el release Planning
+  
+
+  Plan y estimacion
+    crear historias de usuario
+    Aprobar, estimar y comprometer las historias de usuario
+    crear tareas
+    estimar tareas
+    crear sprint backlog
+
+  implementacion
+    Creacion de entregables
+    dailys standup
+    refinar el backlog priorizado->product owner
+
+  lanzamiento
+    liberar entregables
+    Realizar retrospectiva del proyecto
+
+  revision y retrospectiva
+    convocar el scrum de scrums
+    Demostrar y validad sprint
+    Realizar la retorspectiva del sprint
+
+Identificar al Scrum Master y stakeholder
+  Habilidades de resolver problemas
+  disponibilidad
+  compromiso con el proyecto
+  estilo de liderazgo facilitador
+
+Identificar al scrum Team
+  Maximo 10 Personas
+  disponibilidad
+  compromiso con el equipo
+  Habilidades tecnicas
+
+DESARROLLAR EPICAS
+
+Backlog priorizado
+  Orden de importancia
+  Que tenga un 'para que 'con valor
+
+Release planning meeting
+  Se Establece el plan de entregas y metas que el equipo y
+    el resto de la organizacion pueder entender y comunicar
+
+  Establecer la meta de Release, los PBIs (product backlog Item)
+    de mas alta prioridad, los riesgos principales y los features
+    y funcionalidades que el release incluira.
+
+  Establecer una fecha probable de entrega,
+    asumiendo que no hubiera cambios relevantes.
+  
+HISTORIA DE USUARIO
+
+captura la esencia del valor del negocio de un sistema y
+  estan escritas en lenguaje cotidiano
+
+Describe la funcionalidad deseada desde la perspectiva del cliente (el usuario)
+
+Describe esta funcionalidad, quien la necesita, como y para que se va a utilizar.
+
+No son descripciones detalladas de la funcionalidad, su finalidad es 
+  servir como comienzo de las conversaciones entre los desarrolladores y los 
+  usuarios, no como el final de estas conversaciones.
+
+Considerar
+➔ ¿Qué más necesitan saber los developers respecto a esta HU?
+➔ ¿Existen circunstancias en las que esta historia se puede comportar de 
+forma diferente?
+➔ ¿Qué puede salir mal en esta HU?
+
+INVEST{
+  Independent
+  Negotiable
+  Valuable
+  Estimable
+  Small
+  Testable
+}
+
+EPICAS == Requerimientos de negocio
+MODULOS/ SECCION /APLICACION
+FUNCIONES QUE NECESITAN CREARSE, MEJORARSE O CORREGIRSE.
+INTEGRACIONES/ WEBSERVICES
+
+ScrumBoard
+
+Planning Poker  -> Dimensionamiento relativo en el scrum
+Sprint burndown Chart
+
+Backlog
+  El backlog de un producto es una lista de trabajo ordenado por 
+  prioridades para el equipo de desarrollo que se obtiene de la hoja de ruta 
+  y sus requisitos. Los elementos más importantes se muestran al principio 
+  del backlog del producto para que el equipo sepa qué hay que entregar 
+  primero.
+
+Daily
+  ¿Qué hice ayer? 
+  ¿Qué es lo que voy a hacer hoy? 
+  ¿He tenido algún tipo de problema durante el desarrollo o si 
+  tengo algún problema?
+
+Demostrar y validar Sprint
+  Demostrar y validar el sprint: Resultado de los entregables aceptados. 
+  EL Product Owner recibe los entregables quien evaluará y 
+  podrá realizar la aprobación con respecto a los criterios de aceptación. 
+  Retrospectiva del sprint: Planes de mejoras acordadas.
+
+Retrospectiva del sprint
+  En Scrum la retrospectiva tiene lugar al final del Sprint,
+  después de la Revisión de Sprint y antes de la siguiente 
+  Planificación de Sprint.
+
