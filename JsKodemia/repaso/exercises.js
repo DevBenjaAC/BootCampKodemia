@@ -5,6 +5,7 @@
 let macbook = "computer";
 const PI = 3.1416;
 let screenOn = true;
+let undefined; 
 const car = {
   color: 'red',
   marca: 'kia',
