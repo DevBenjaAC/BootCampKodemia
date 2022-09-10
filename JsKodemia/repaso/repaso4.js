@@ -89,3 +89,32 @@ console.log(lapizVerde);
 
 //SABER EXPLICAR, PARA QUE FUNCIONA, COMO FUNCIONA, QUE ES
 //Uno no sabe lo que sabe hasta que lo intenta.
+/**
+ * 
+ * Los metodos son propiedades que son funciones
+ * class animal {
+ * constructor(epoca, alimentacion, habitat) {
+  this.epoca = epoca;
+  this.alimentacion = alimentacion;
+  this.habitat = habitat;
+  this.rugir = (texto) => {
+    return "soy un Dinosaurio: " + texto;
+  };
+
+  comida{
+    'METODO'
+  }
+ * }
+
+  Herencia:
+
+  class oviparo  extends animal{
+    constructor naceDeHuevo() {
+      this.naceDeHuevo{
+        super() //OBLIGATORIO MANDARLA A LLAMAR
+        this.naceDeHuevo = naceDeHuevo;
+      }
+    }
+
+  }
+ */
