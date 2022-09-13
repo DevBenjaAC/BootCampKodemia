@@ -1,0 +1,11 @@
+Node Js-> Entorno de ejecucion Multiplataforma
+  Ejecutar JS en nuestra maquina.
+  NPM -> Node package Manager
+    Gestiona todos los paquetes que tengan que ver con Node JS
+    node -v Version NODE 
+    npm -v Version NPM
+
+
+PRIMER PROJECTO JS
+  consola
+  
