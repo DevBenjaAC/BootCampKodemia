@@ -9,3 +9,25 @@ Node Js-> Entorno de ejecucion Multiplataforma
 PRIMER PROJECTO JS
   consola
   
+Tipado:
+tipado inferido
+  En el momento que estamos definiendo variable (sea cual sea) se define al momento de interpretarla.
+  Ventajas: Más libertad al crear codigo, codificar mas rapido
+  Desventajas: El compilador no nos da errores al redefinir variables
+
+Tipos en JS
+  2 Tipos Generales
+    Datos primitivos
+      Number var a = 1
+      string var str = "string"
+      booleano var bool = true
+      null var nul = null -> Esta asignada a un espacio de memoria vacio
+      Undefined var und = Undefined No tiene un espacio de memoria asignada
+
+    Objetos
+
+    variables
+      var
+      let
+      const
+      
