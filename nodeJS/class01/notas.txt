@@ -1,0 +1,58 @@
+Arquitectura linux
+
+hardware
+Kernel
+shell -> Caparazon
+Utilities -> Aplicaciones
+
+Iterm TERMINAL
+shell la que nos probe el acceso
+
+bash la mas rapida
+fish muy personalizable
+
+Wsl subsystem
+terminal Aplicacion
+shell es la serie de comandos que conecta al kernel 
+
+  cambiar shell 
+    chsh -s  /bin/[shell]
+
+  pwd print working directory
+
+file System -> arbol de directorios
+~   Virgulilla
+/   root 
+.   Directorio Actual
+..  Directorio Padre
+-   Ruta Anterior
+
+Ruta relativa   ../../My-directory  ->Depende de donde nos encontremos
+Ruta absoluta   /Users/fernanda/Kodemia  ->
+
+ALIAS -> hacer un comando complejo un comando corto
+alias saludo="echo 'hola koders'"
+alias statusCorregido="git status"
+alias borra="clear"
+
+VARIABLES
+export URL_API=https://kodemia.mx/api
+➜  nodeJS git:(main) ✗ echo $URL_API
+
+https://kodemia.mx/api
+➜  nodeJS git:(main) ✗
+
+COMANDOS EN CADENA
+comando1 && comando2 Mientras no ocurra errores 
+comando1 || comando2 El que no tenga errores 
+comando1 ; comando2 No le importa si una tiene error EJECUTA el comand (conector)
+
+mkdir director_ben && cd director_ben && echo 'Estoy en el directorio de benja'
+cd dir_benja || echo 'hola benja'
+
+Generar un alias que permita generar un proyecto base con la siguiente estructura
+index
+
+
+//alias de estructura basica:
+alias estructura="mkdir proyect && cd proyect && touch index.html && mkdir css && mkdir js && mkdir assets && cd css && touch style.scss && cd .. && cd js && touch main.js && cd .. && cd .."
