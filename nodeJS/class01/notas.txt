@@ -56,3 +56,29 @@ index
 
 //alias de estructura basica:
 alias estructura="mkdir proyect && cd proyect && touch index.html && mkdir css && mkdir js && mkdir assets && cd css && touch style.scss && cd .. && cd js && touch main.js && cd .. && cd .."
+
+zshrc ->RootCommand
+ls -A -> 
+
+refresh a terminal source .zshrc
+
+NODE JS -> Entorno de ejecucion != Libreria, js, Framework
+  Compilado-> necesita pasar por un compilador para lenguaje maquina
+    java, c, 
+  Interpretados-> No necesitan pasar por compilador, el interprete lo traducira a lenguaje maquina
+    JavaScript,
+
+MOTORES
+  Solo corre en un hilo(Single threat)
+  v8 Chrome
+
+Node se puede instalar de lado del servidor en cualquier maquina 'Runtime' y con eso utilizar JS de lado del servidor
+
+NPM node package manager
+  Gestor de paquetes para JS
+
+Leer Documentacion de Node JS 
+  CallBacks
+  Asincronismo en JS 
+
+
