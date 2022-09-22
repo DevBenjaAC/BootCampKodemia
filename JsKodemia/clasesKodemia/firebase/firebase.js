@@ -34,3 +34,18 @@ export const saveTask = (titulo, descripcion) => {
   const canasta = collection(db, "tasks");
   addDoc(canasta, objetoAGuardar);
 };
+
+//Enviar post a Data Base
+const savePost = (titulo, usuario, imagenPortada, categoria, imagenAvatar, etiquetas, contenido ) => {
+  const guardaPost = {
+    title: titulo,
+    usuario: usuario,
+    imagenPortada: imagenPortada,
+    categoria: categoria,
+    imagenAvatar: imagenAvatar,
+    etiquetas: etiquetas,
+    contenido: contenido
+  };
+  const caja = collection(db, "Dev.toPOST");
+  addDoc(caja, guardaPost);
+};

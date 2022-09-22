@@ -62,3 +62,7 @@ console.log(otraFuncion);
     //funcion que genere funciones o 'factoryFunctions'
     //
 
+/**
+ * Callbacks
+ */
+

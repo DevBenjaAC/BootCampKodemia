@@ -14,4 +14,7 @@ npmjs.com empaqueta el codigo
 //Cosas que tengan que ver con el cliente no se pueden utilizar con Node JS
   Manipulacion del DOM
   Fetch() -> solo existe en el browser
-  
+
+
+Los callbacks tienen una firma
+  tienen una firma -> la forma en que una funcion recibe sus parametros
