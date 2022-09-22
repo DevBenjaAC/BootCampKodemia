@@ -1,0 +1,17 @@
+npm --version
+node --version
+nvm--version
+nvm ls-remote
+
+nvm -> se opera por OpenJS (mantiene a los desarrolladores para que no termine el soporte)
+  hay certificaciones en NODE JS 
+
+nvm install --lts instalar version actual de node 
+nvm use version -> Version a usar
+npmjs.com empaqueta el codigo 
+============
+
+//Cosas que tengan que ver con el cliente no se pueden utilizar con Node JS
+  Manipulacion del DOM
+  Fetch() -> solo existe en el browser
+  
