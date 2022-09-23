@@ -1,0 +1,33 @@
+ El asincronismo en JS 
+  como maneja js el asincronismo -> 
+  
+Ejemplos de Acciones asincronas
+API -> Te ofrece servicios
+  Firebase es una API
+Diferentes tipos de API
+  api que brinda servicios
+  api REST
+
+
+CallBack Hell
+   El infirno de los CallBacks
+
+
+Ejercicio CallBacks del proceso de inscpcion en kodemia
+  ir a la documentacion de node del mudulo de filesystem
+, CallBack api
+
+Para archivos
+-1º, .WriteFile
+-2º, .ReadFile
+-3º, .appendFile
+-4º, .ulinkFile
+-5º, .copyFile
+
+Para Directorios
+-1º, .mkdir
+-2º, .readdir
+-3º, .mrdir
+
+Para cada metodo crear su .js or .mjs en la carpeta de la clase
+
