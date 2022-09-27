@@ -1,0 +1,8 @@
+writeFile
+appendFile
+
+
+El metodo Unlink sirve para remover un archivo.
+
+3 Metodos para manipular directorios.
+  

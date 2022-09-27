@@ -8,3 +8,5 @@ fs.writeFile('koders.txt', 'hola koders desde fs',(error) =>{
   }
   console.log('se ha creado el Archivo!! 🔥');
 } );
+
+import {  } from "module";
