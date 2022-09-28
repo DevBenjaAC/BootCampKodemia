@@ -17,6 +17,7 @@ new Promise((resolve, reject) => {
 //Reject (es una funcion) al invocarla se cambiara el estado de la promesa a rejected
 
 const myFirstPromise = new Promise((resolve, reject) => {
+  // recibe un callback
   setTimeout(() => {
     let error = null;
     if (error) {
@@ -38,9 +39,11 @@ console.log(myFirstPromise);
 
 myFirstPromise
   .then((result) => {
+    // resolve promise
     console.log("result", result);
   })
   .catch((err) => {
+    // reject promise
     console.log("error:", err);
   });
 
@@ -175,8 +178,10 @@ function goToSuperMarket(personGoToSuperMarket) {
  * !Condiciones:
  * Para usar AWAIT Necesitamos una funcion que Wrapeara (marcaremos) como asyncrona
  *  Donde Utilizo await necesitamos marcar la funcion que la contiene como asincrona
- *
+ * PUEDO MANEJARLAS CUANDO QUIERA MANEJAR PROMESAS
  * !-Las funciones marcadas como asincronas por defecto regresan una promesa
+ * !Son funciones en las que tienes acceso dentro del callback
+ * !Se puede usar alert o innertext dentro de async en FRONTEND
  */
 console.log("con async await");
 
@@ -195,18 +200,64 @@ async function main() {
 }
 
 main()
-.then(() => {
-  console.log("Todo cool");
-})
-.catch((err) => {
-  console.error('Error: ', err);
-})
-
+  .then(() => {
+    console.log("Todo cool");
+  })
+  .catch((err) => {
+    console.error("Error: ", err);
+  });
 
 /**
  *  ! 1º Realizar el proceso de inscripción a kodemia con promesas
  * -Encadenamiento d epromesas
  *  async & await
- * 
- * ! 2º A partir de archivo Json Hacer CRUD 
+ *
+ * ! 2º A partir de archivo Json Hacer CRUD
  */
+
+const fs = require("fs");
+function updateKoderById(idKoder, newData) {
+  const datFile = fs.promises
+    .readFile("./koders.json", "utf-8") // Regresa una persona
+    .then((data) => {
+      //aqui ya tengo la data del archivo 
+      console.log(data); //Aqui regresa un string
+      const json = JSON.parse(data);
+      console.log(json);
+
+      const koderFound = json.koders.find((koder) => koder.id === idKoder);
+      console.log('koderFound:', koderFound);
+      const koderUpdated = {...koderFound, ...newData}
+      console.log('koderUpdated:', koderUpdated);
+      const koders = json.koders.filter((koder) => koder.id !=== idKoder);
+      console.log('koder sin rafa:', koders);
+      koders.push(koderUpdated);
+      json.koders.push(koders);
+      console.log('kodersActualizados');
+      console.log(json.koders);
+      fs.writeFile(./koders.json, JSON.stringify(json,null, 2));
+
+      )});
+
+    })
+    .catch((err) => {
+      console.error("Error: ", err);
+    });
+}
+
+updateKoderById(1, newDataRafa)
+
+//SpredOperator
+const objetoFer = {
+  name: 'Fernanda',
+  lastName: 'Palacios',
+}
+
+const otherObject = {
+  age: 26,
+  gitHub: '@EveFer',
+  lastName: 'Vera'
+}
+
+const newObject ={... objetoFer, ...otherObject}
+  console.log(newObject);
