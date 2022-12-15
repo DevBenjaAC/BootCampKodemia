@@ -1,0 +1,63 @@
+RED
+Interconexión física o inalámbrica que vincula dispositivos  para que se comuniquen entre si, con la finalidad de compartir datos
+
+ Tipos de Redes
+* Lan -Area local pequeña, misma conectividad, ethernet, wifi.
+
+* Man-Red Metropolitana, confección de diversas Lan que se comunican como parte de la misma red de área local, conmutadores, routers, fibra OPTICA
+
+* Wan - Conexión de multiples Lan a tra vez de grandes distancias geográficas, ROUTERS, internet
+
+* Wlan - Red de area local inalámbrica, conexión de ondas electromagnéticas, satélites y microondas, WIFI Y LIFI
+
+Consideraciones de hardware y software
+* Nodos
+* Adaptadores o tarjetas de red
+* Dispositivos de red
+* Paquetes
+* Aplicación
+* Protocolos
+
+Protocolo
+Conjunto de estándares y normas que permiten a los dispositivos el intercambio de datos en una red regulando su conexión.
+* Modelo CLIENTE-SERVIDOR
+
+Aplicación - Protocolo de transferencia de hipertexto. (HTTP)
+Trasnporte - Protocolo de control de transmisión (TCP)
+Internet - Protocolo de internet (IP)
+Acceso a ña red - Ethernet
+
+SERVIDORES
+Cliente-Servidor
+Es un ente que pone cosas a disposición de otro
+* Ente: hardware o software
+* Cosas: archivos, correos, bases de datos, sitios webs, relacioné dominios e IP, seguridad , etc.
+* Otro: Computadoras, clientes de correo, navegadores, etc.
+
+Tipos de servidores:
+* Servidor Web
+* Servidor de archivos
+* Servidor de correo Electrónico
+* Servidores de bases de datos
+* Servidor de proxy
+* Servidores DNS
+* Y mas.
+
+Que es y como funciona el internet
+Red de computadoras interconectadas a nivel mundial para compartir información, 
+
+* 1958 - Multivac de isaac Asimov
+* 1965 Red intergaláctica de computo, de joseph Carl Robnett  Licklider
+* 1969 Larry Roberts ARPANET
+
+Como funciona el internet?, CABLES SUBMARINOS DE INTERNET
+
+URL -Identificador unico 
+* PROTOCOLO - HTTP, HTTPS
+* HOST - www, DONDE se almacena 
+* DOMINIO - DNS domain name sistem, google.com / dns server/ 12.16.64/browser/WebServer/Pagina Web /lo transforma en IP
+
+* Directorio /path: define el camino que debe seguir el servidor.
+
+
+W3C world web consortium. COmite dedicado a implementar tecnologías uniformes en el uso de internet
