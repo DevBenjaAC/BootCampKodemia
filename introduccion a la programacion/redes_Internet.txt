@@ -61,3 +61,7 @@ URL -Identificador unico
 
 
 W3C world web consortium. COmite dedicado a implementar tecnologías uniformes en el uso de internet
+
+Conexiones submarinas
+    Tratan de minimizar la latencia.
+    Buscan seguridad para pasar desapercibidos.
