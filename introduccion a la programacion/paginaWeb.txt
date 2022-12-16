@@ -1,0 +1,73 @@
+Que es una Pagina Web
+
+    HTML -> La estrucutura.
+    Css -> Colores, tamaño, animacion.
+    Javascript -> Funcionalidades.
+    
+    Pagina Web
+        Documento que vemos en el navegador.
+            Puede contener texto, imagenes, videos.
+
+    Sitio Web 
+        Coleccion de paginas web.
+            Tienen varias paginas interconectadas.
+
+    Aplicación Web
+        Sitio web con Funcionalidades
+            Se centran en que los usuarios realicen acciones en él.
+    
+    Evolucion de la web
+
+    Web 1.0 - HTML, Portals
+        WebMaster
+        Web Estatica
+        usuarios
+    
+    Web 2.0 - xml, Rss
+        WebMaster
+        Usuarios que participan
+        Web dinamica
+        Comunidad
+    
+    Web 3.0 - RDF,RDF´S, OWL
+        Base de datos
+        Web Semantica + Inteligencia Artificial
+        Comportamiento del usuario -> Web Multimedia
+        Diseño Responsive
+        Smart Apps
+
+    Paginas Estaticas & Dinamicas
+
+    CMS -> Content Management System -> sistema de control de contenidos
+
+    Compartir un Sitio Web y Pagina Web y una app web
+
+    Desarrollador Web
+        Programador Web el el profesional que crea sitios web
+            Front-End
+            Back-End
+
+        Fullstack Web
+            Desarrollador web con conocimientos tanto en Front como en Back
+
+     Stack basados en JS -> 
+                MERN 
+                    MongoDb
+                    Express
+                    React
+                    Node 
+                
+                MENV
+                    MongoDb
+                    Express
+                    Vue
+                    Node
+                
+                MEAN 
+                    MongoDb
+                    Express
+                    Angular
+                    Node
+
+    
+    
