@@ -1,29 +1,36 @@
 ======TALLER LINUX======
-Impartido por Alfredo- KODEMIA
-    LINUX
-        Nos preparamos a nuestro ambiente de desarrollo
-        para el ambiente de produccion.
+Impartido por Alfredo pizaña- KODEMIA
+LINUX
+Nos preparamos a nuestro ambiente de desarrollo
+para el ambiente de produccion.
 
         Mantener un sistema linux en un servidor es mas
         economico que un servidor windows
 
-        Un sistema windows siempre necesitara recursos 
+        Un sistema windows siempre necesitara recursos
         adicionales y graficos como mouse o teclado.
             Desperdicio de recursos.
 
 =====SISTEMAS OPERATIVOS==
+Encargado de administrar recursos de hardware y software para el usuario
+
     -macOs
     -windows
     -unix
+        laboratorios bell de At&t  Unix se refiere al sistema operativo original desarrollado por AT&T.
     -Gnu
+        controlar este kernel
     -linux
+        kernel que se comunica con el sistema fisico
 
-    *Dennis ritchue y ken thomson crean UNIX en 1969
+    Linux se refiere al kernel del sistema operativo GNU / Linux. De manera más general, se refiere a la familia de distribuciones derivadas.
+    Unix se refiere al sistema operativo original desarrollado por AT&T.
+
+    *Dennis ritchue y ken thomson crean UNIX/GNU en 1969
     *Richard stallman fundador de FSF free software foundation
     *Linus torvalds crea linux foundation
         Empieza a trabajar en drivers genericos
-    *Richard stallman y linus torvalds crean GNU/LINUX en 1991
-
+         *Richard stallman y linus torvalds crean GNU/LINUX en 1991
 
 Instalacion de wsl
 intalacion de brew
@@ -36,60 +43,67 @@ para usar tldr es ----> tldr tree ---> Mostrara el manual de tree resumido
 
 sudo apt update ------ Enlista las actualizaciones
 suddo apt upgrade ---- Intala las actualizaciones
-sudo apt  ------------ 
+sudo apt ------------
+
+sudo ----super administrador ------------
 
 ======COMANDOS==========
 
-pwd    ---> Directorio en donde esta parado el puntero
-ls     ---> Enlista el contenido en Directorio
-ls -a  ---> Enlista todos los archivos y carpeta del Directorio (tambien ocultos)
-ls -l  ---> Enlista todos los archivos en formato largo
-______________
+pwd ---> Directorio en donde esta parado el puntero
+ls ---> Enlista el contenido en Directorio
+ls -a ---> Enlista todos los archivos y carpeta del Directorio (tambien ocultos)
+ls -l ---> Enlista todos los archivos en formato largo
+
+---
+
 - List files one per line:
-    ls -1
+  ls -1
 
 - List all files, including hidden files:
-    ls -a
+  ls -a
 
 - List all files, with trailing `/` added to directory names:
-    ls -F
+  ls -F
 
 - Long format list (permissions, ownership, size, and modification date) of all files:
-    ls -la
+  ls -la
 
 - Long format list with size displayed using human-readable units (KiB, MiB, GiB):
-    ls -lh
+  ls -lh
 
 - Long format list sorted by size (descending):
-    ls -lS
+  ls -lS
 
 - Long format list of all files, sorted by modification date (oldest first):
-    ls -ltr
+  ls -ltr
 
 - Only list directories:
-    ls -d */
-________________
-CD 
+  ls -d \*/
+
+---
+
+CD
 cd
 
 Change the current working directory.
 More information: <https://manned.org/cd>.
 
 - Go to the specified directory:
-    cd path/to/directory
+  cd path/to/directory
 
 - Go up to the parent of the current directory:
-    cd ..
+  cd ..
 
 - Go to the home directory of the current user:
-    cd
+  cd
 
 - Go to the home directory of the specified user:
-    cd ~username
+  cd ~username
 
 - Go to the previously chosen directory:
-    cd -
-_____________________
+  cd -
+
+---
 
 mkdir
 
@@ -97,33 +111,34 @@ Creates a directory.
 More information: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Create a directory in current directory or given path:
-    mkdir directory
+  mkdir directory
 
 - Create multiple directories in the current directory:
-    mkdir directory_1 directory_2 ...
+  mkdir directory_1 directory_2 ...
 
 - Create directories recursively (useful for creating nested dirs):
-    mkdir -p path/to/directory
-___________________________________
+  mkdir -p path/to/directory
 
-mv 
+---
+
+mv
 
 - Move a file to an arbitrary location:
-    mv source target
+  mv source target
 
 - Move files into another directory, keeping the filenames:
-    mv source1 source2 source3 target_directory
+  mv source1 source2 source3 target_directory
 
 - Do not prompt for confirmation before overwriting existing files:
-    mv -f source target
+  mv -f source target
 
 - Prompt for confirmation before overwriting existing files, regardless of file permissions:
-    mv -i source target
+  mv -i source target
 
 - Do not overwrite existing files at the target:
-    mv -n source target
+  mv -n source target
 
 - Move files in verbose mode, showing files after they are moved:
-    mv -v source target
+  mv -v source target
 
 MAS COMANDOS
