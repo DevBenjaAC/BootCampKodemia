@@ -142,3 +142,16 @@ mv
   mv -v source target
 
 MAS COMANDOS
+chmode cambia permisos
+chmode
+w
+x
+r
+
+    chmode -x
+        eliminar
+    chmode +x
+        agregar
+
+linkear algun archivo como acceso directo
+In rutaOrigen rutaFinal
