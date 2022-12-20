@@ -1,0 +1,60 @@
+
+Wireframes
+    Diseño de elementos que existiran en la interfaz.
+    
+    Su objetivo es proporcionar una comprension visual de una pagina, sitio o aplicacion web al principio de un proyecto.
+    Tambien sirve para definir navegacion global del sitio y garantizar  que el flujo y la estructura satisfagan las expectativas del usuario.
+
+Mockups
+    Una maqueta o montaje digital que permite a los diseñadores mostrar cómo quedaran sus diseños, y asi generar una idea mas realista de cómo se veria el proyecto terminado.
+
+Aside 
+    Columnas con informacion relevante en los laterales.
+
+Prototipo
+    Es una version interactiva inical de la idea de un producto o servicio.
+    Se Implementa despues de varias iteraciones de prototipado y evaluacion y se tiene la intencion de ver cómo son las interacciones en el sistema.
+
+HTML
+    lenguaje de marcas de hipertexto.
+         Es un lenguaje de marcado estandar para crear paginas web.
+
+         HTML es un texto plano, asi que necesitamos un navegador para ver nuestro sitio.+
+
+        Documento HTML
+
+        <!DOCTYPE html> --> Dice al navegador que estas escribiendo es un documento html
+            <html lang="es"> --> Contiene todo el documento HTML
+                <head>
+                    <meta charset="utf-8">  --> No se muestra visualmente, pero le sirve al navegador para leer un Documento
+                    <title>HOLA MUNDO </title>
+                </head>
+                <body>
+                    <h1>HOLA MUNDO🦊</h1>
+                     <p>esto es un parrafo</p>  --> Todo lo que se quiere visualizar en el documento va dentro de la etiqueta "body".
+                </body>
+            </html>
+
+    Elementos
+        img
+        salto de linea 
+        <br>
+
+    Atributos
+        Proporciona informacion adicional del los elementos HTML
+        Deben ser siempre especificados en la etiqueta de apertura
+        Usualmente tiene un nombre y un valor. name = "value".
+            href
+            src
+            alt
+            title
+    
+    CSS 
+    cascading stylesheets 
+        Hojas de estilo en cascada
+            es un lenguaje declarativo
+            al escribir un css, dejamos al navegador encargarse de como mostrar el contenido de nuestro documentos html a partir de las reglas  que escribamos.
+
+    Estilo en linea
+    Estilo en archivo Css
+    
