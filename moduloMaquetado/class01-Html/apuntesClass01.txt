@@ -60,3 +60,53 @@ body--> TODO LO QUE EL USUARIO VE
             < nombre de la etiqueta > El contenido va aquí... < /nombre de la etiqueta Cierre>
     
 
+//Isrrael Salinas. 
+
+TIPS:
+    QUE ES
+    PARA QUE SIRVE 
+    COMO FUNCIONA
+    
+
+MAQUETADO
+    Html
+        estructura
+        No es un lenguaje de programacion debido a que no contiene 
+
+    Diferencia entre section u article
+        "Una sección es un agrupamiento temático de contenido, normalmente con un encabezado".
+        "La etiqueta del article es un agrupamiento que especifica contenido independiente y autónomo".
+    
+
+elementos
+en linea
+en bloque
+
+etiquetas semanticas:
+    header
+    main
+    section
+    article
+    nav
+    aside
+    footer
+
+Dominar y saber para que existe todas las etiquetas posibles
+conocer y saber la optimizacion de las paginas
+ b bites 
+ B Bytes
+
+ SPA single play application 
+    Contenido dinamico que se injecta a la pagina mediante Javascript
+
+ACENTO CIRCUNFLEJO
+    ^ PARA SUBIR NIVELES
+    main>aside>ul>li*4{item $}^^section
+
+Tener en cuenta para vacaciones:
+cuales son los elementos
+como se escriben
+que son los Atributos
+que hacen los Atributos
+en cuales aplican y cuales no
+diferencia entre elementos de linea y de bloque
