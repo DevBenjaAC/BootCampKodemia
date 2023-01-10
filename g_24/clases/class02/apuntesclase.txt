@@ -9,9 +9,16 @@ Valor: Resultado esperado para cada atributo
 
 
 ====selectores Basicos====
-    Selector Universal = *
-    Selector Por tagName = nombre de la etiqueta
-    Selector por clase = . (Nombre de la clase)
-    Selector por id = # (id Asignado)
+    Selector Universal = * TODOS LOS ELEMENTOS 
+    Selector Por tagName = selecciona aquellos elementos que coincidan con el tagname indicado(Nombre de la etiqueta)
+    Selector por clase = . selecciona todos los elementos  que contengan el nombre de la clase dentro de su atributo class.
+    Selector por id = # (id Asignado) Selecciona aquel unico elemento que contenga el identificador en sua tributo ID 
 
 normalmente time new roman es la que trae por default el navegador- sanserifas
+
+text transform:
+UpperCase - Mayusculas
+
+estaticas: px
+elasticas: %
+compuestos: Combinados

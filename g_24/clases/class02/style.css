@@ -1,4 +1,49 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    color:peru;
+    
+}
+li,p,span {
+    text-decoration: underline;
+    color: peru;
+}
+
+.main-text {
+    font-size: 2rem;
+    color: darkred;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.border-and-shadow{
+    border: 1px solid red;
+    box-shadow: 3px 3px 3px 5px #aaa ;
+}
+#main_list{
+    list-style: none;
+    padding: 0;
+    border: 6px solid purple;
+
+}
+
+.rectangulo{
+    width: 10rem;
+    height: 20rem;
+    border: 6px solid peru;
+    background-color: peru;
+    text-align: center;
+}
+#circulo{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 6px solid orange;
+    background-color: orange;
+    text-align: center;
+}
+.cuadrado{
+    width: 10rem;
+    height: 10rem;
+    border: 6px solid green;
+    background-color: green;
+    text-align: center;
 }
