@@ -21,4 +21,4 @@ UpperCase - Mayusculas
 
 estaticas: px
 elasticas: %
-compuestos: Combinados
+compuestos: Combinados !! 
