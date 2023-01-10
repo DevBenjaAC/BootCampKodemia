@@ -1,0 +1,17 @@
+CSS 
+    Isrrael Salinas
+lunes 09 enero 2023
+______________
+SINTAXIS
+selector: indica el elemento  o elementos  que seran afectados por la reglamde CSS
+Atributos: Representan las caracteristicas que podemos modificar de un elemento o elementos 
+Valor: Resultado esperado para cada atributo
+
+
+====selectores Basicos====
+    Selector Universal = *
+    Selector Por tagName = nombre de la etiqueta
+    Selector por clase = . (Nombre de la clase)
+    Selector por id = # (id Asignado)
+
+normalmente time new roman es la que trae por default el navegador- sanserifas

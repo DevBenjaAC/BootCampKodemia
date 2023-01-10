@@ -106,3 +106,11 @@ REVISAR LISTA DE ELEMENTOS NO HEREDABLES/HEREDABLES
 https://www.w3.org/TR/css-2010/#properties
 Practica 4 Comenzarla y entregarla :)
 
+
+lenguaje de Diseño
+para que sirve para dar diseño en forma de cascada 
+
+selector{propiedad:valor; propiedad2:valor2}
+    selector= elemento a modificar
+    propiedad=caracteristica que se modifica
+    valor=Que estilo obtiene

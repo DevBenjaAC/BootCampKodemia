@@ -110,3 +110,6 @@ que son los Atributos
 que hacen los Atributos
 en cuales aplican y cuales no
 diferencia entre elementos de linea y de bloque
+
+link si puede tener contenido dentro 
+img no tiene contenido dentro
