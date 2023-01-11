@@ -43,7 +43,7 @@ margin 0
 =========================
 
 vertical-align: top;
-  Solo funciona elementos en linea para mandarlos arriba
+  Solo funciona elementos en linea para mandarlos arriba ( su referencia es la parte superior)
 
 ======UNIDADES DE MEDIDA==========
 
@@ -65,7 +65,7 @@ RELATIVAS
   -Vw ---> ViewPortWidth
   -vh ---> ViewPortheight
 
-  REM
+  REM Root element mension
   Relativa al tamaño de fuente del
   elemento raiz del documento ---> HTML
 
@@ -77,6 +77,7 @@ NAVAGADORES POR DEFAULT
 
 em --> RELATIVA AL TAMAÑO DE LA FUENTE 
 DEL PADRE MAS CERCANO CON UN FONTSIZE DECLARADO
+
 
 ==============================================
 
@@ -97,6 +98,11 @@ DEL PADRE MAS CERCANO CON UN FONTSIZE DECLARADO
     saturation (saturacion del color) 0% - 100%
     lightness (luminicidad del colo)  0% -  50% Neutra
       se puede agregar alpha 0 - 1 Opacidad
+
+  conjuncion
+  clase.clase
+  id.clase tagname 
+
 
 ===========SELECTORES AVANZADOS===============
 basicos: 
@@ -155,8 +161,24 @@ Selector adyacente=======
 
     elemento_anterior + elemento_afectado { estilos }
     
+elemento Subsecuente ~
+Todos los elementos que esten despues de mi elemento seleccionado
 
+: pseudoclase el elemento
+nth Enesimo 
+:first-child-----> primer hijo
+:last-child-----> ultimo hijo
+:nth-child -----> Enesimo hijo (pares o nones, valor especifico, anotacion funcional)
+:first-of-type() ----->primero de su tipo (tipo de elemento)
+:last-of-type() ----->ultimo de su tipo (tipo de elemento)
+:nth-of-type()-------> Enesimo de su tipo(pares o nones, valor especifico,)
+:not()------> Negacion  selecciona todos excepto (recibe un selector)
 
+===================================
+PARES--> EVEN
+INPARES-->ODD
+
+cursor: pointer (la manita del cursor)
     
 Selector hermano========
 Selector por atributo

@@ -1,0 +1,10 @@
+.text-uppercase{
+  text-transform: uppercase;
+}
+ol li{
+  border: 1px solid peru;
+}
+
+#first-list li{
+  padding: 1rem;
+}

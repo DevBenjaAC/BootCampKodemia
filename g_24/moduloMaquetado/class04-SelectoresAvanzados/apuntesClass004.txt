@@ -98,7 +98,7 @@ Que es Pseudoclase----> INDICE PSEUDOCLASE ESTANDAR
 :nth-child -----> Enesimo hijo (pares o nones, valor especifico, anotacion funcional)
 :first-of-type() ----->primero de su tipo (tipo de elemento)
 :last-of-type() ----->ultimo de su tipo (tipo de elemento)
-:nth-of-type()-------> Enesimo de su tipo()
+:nth-of-type()-------> Enesimo de su tipo(pares o nones, valor especifico,)
 :not()------> Negacion  selecciona todos excepto (recibe un selector)
 
 ===================================
