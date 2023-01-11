@@ -1,0 +1,38 @@
+*{
+  font-family: 'Red Hat Display', sans-serif;
+}
+.img-back{
+  position: absolute;
+  z-index: -1;
+}
+body{
+  background-color: hsl(225, 100%, 94%);
+}
+.card{
+  margin-left: 25%;
+  background-color:white;
+  text-align: center;
+  width: 25%;
+  height: 80%;
+  border-radius: 15px;
+}
+.img-hero{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 356px;
+}
+.title{
+  margin-top: 1.5rem;
+}
+.parragraph{
+  color: hsl(224, 23%, 55%);
+}
+.square{
+  border: 1px solid red;
+}
+.img{
+  align-content: flex-end;
+}
+.titulo{
+  align-content: center;
+}
