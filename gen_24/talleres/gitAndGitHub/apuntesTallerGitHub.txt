@@ -13,6 +13,19 @@ Puedes ir al pasado para ver alguna version pasada, con algun commit en especifi
 =====================
 git init 
 inicializar proyecto desde local.
+PARA BORRAR un repositorio es con el comando :   rm -r .git 
+
+TODO directorio que contenga .git es un repositorio
+  -las carpetas, archivos o subcarpetas son parte del repositorio
+
+
+  Working directory -> Es el directorio de trabajo en donde se guardan los archivos de mi proyecto.
+  Staging Area -> Area preparatoria, es el area en donde se preparan los archivos para ser commiteados.
+  Repositorio -> 
+  TODO HACERLO EN INGLES // Nombre de variables, mensaje de commits, nombre de clases.
+
+Practica:
+Cambio 1
 ====================
 
   git add 
