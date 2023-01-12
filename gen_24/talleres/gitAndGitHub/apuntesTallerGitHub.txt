@@ -28,6 +28,10 @@ Practica:
 Cambio 1
 cambio 2
 cambio 3
+NO PODEMOS HACER COMMITS SIN HACER HABER  AGREGADO NADA AL STAGING AREA
+
+git checkout para cambiar de commit o de rama
+  con los primeros 6 digitos del commit historico
 ====================
 
   git add 
