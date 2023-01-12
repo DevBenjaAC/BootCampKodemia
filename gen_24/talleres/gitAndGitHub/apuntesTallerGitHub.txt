@@ -27,6 +27,7 @@ TODO directorio que contenga .git es un repositorio
 Practica:
 Cambio 1
 cambio 2
+cambio 3
 ====================
 
   git add 
