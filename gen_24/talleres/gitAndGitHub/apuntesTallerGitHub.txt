@@ -2,6 +2,14 @@ Git ---> Linea de comandos. y sistema de control de versiones.
 GitHub---> Plataforma para git y trabajos colaborativos
 Puedes ir al pasado para ver alguna version pasada, con algun commit en especifico.
   Se pueden hacer nuevas ramas desde una version pasada.
+
+  CONFIGURAR GIT
+   git config --global -l
+
+   git config --global user.name DevBenjaAC
+   
+   git config --global user.email benjaminalcis.xbox@gmail.com
+
 =====================
 git init 
 inicializar proyecto desde local.
