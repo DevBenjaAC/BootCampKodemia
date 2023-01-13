@@ -11,6 +11,13 @@ Puedes ir al pasado para ver alguna version pasada, con algun commit en especifi
    git config --global user.email benjaminalcis.xbox@gmail.com
 
 =====================
+commit es un punto en el espacio. para un registro.
+Que incluye un commit 
+  un id 
+  un user.name
+  una fecha
+
+
 git init 
 inicializar proyecto desde local.
 PARA BORRAR un repositorio es con el comando :   rm -r .git 
