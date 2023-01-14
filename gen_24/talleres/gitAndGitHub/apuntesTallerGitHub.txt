@@ -108,12 +108,23 @@ git checkout para cambiar de commit o de rama
 
   git clone "direccion ssh del repo"
     Tomar la carpeta .git y traerla a nuestra computadora, reconstruira los archivos para tener un working directory
-    
+
   ==========================
 
 BAJAR cambios
 git pull 
+git fetch 
+
+  git fetch es el comando que hace que tu repositorio Git local se actualice con la 
+  última información que hay en el repositorio remoto, pero no hace ninguna transferencia de 
+  archivos a tu espacio de trabajo local (el código que ves en tu editor por ejemplo). 
+  Podría decirse que sirve para comprobar si hay algún cambio y traerlo a tu repositorio local.
+
+  git pull es el comando que comprueba si hay cambios en el repositorio remoto y, 
+  en caso de que los haya, se trae esos archivos a tu repositorio local y actualiza 
+  tu espacio de trabajo (tu IDE, tus archivos).
 ==================
+
 BAJAR cambios de una rama
 gir pull main 
 ============
