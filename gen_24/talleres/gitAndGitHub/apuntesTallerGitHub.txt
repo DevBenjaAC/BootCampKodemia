@@ -56,6 +56,11 @@ git checkout para cambiar de commit o de rama
     el historial del repositorio. Este comando se usa cuando necesitas 
     buscar una versión concreta de un proyecto o saber los cambios que se 
     introducirán mediante la fusión en una rama de función.
+
+    ==============
+    TODO LO ANTERIOR ES LOCAL. 
+    
+    LA PARTE DE GITHUB ES REPOSITORIO REMOTO.
 ==========================
     EDITOR DE TEXTO
     MD -->
@@ -102,6 +107,8 @@ git checkout para cambiar de commit o de rama
   CLONAR repositorio
 
   git clone "direccion ssh del repo"
+    Tomar la carpeta .git y traerla a nuestra computadora, reconstruira los archivos para tener un working directory
+    
   ==========================
 
 BAJAR cambios
