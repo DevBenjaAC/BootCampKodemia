@@ -1,0 +1,51 @@
+Modulo de maquetado 17 enero 2023
+Isrrael Salinas,
+=============Animaciones y Trancisiones en Css.
+
+Transition es un shorthand de muchas propiedades
+    Caracteristicas
+        widht
+        height
+     Duracion
+        s
+        ms 
+    curva de trancision (Eje x es el tiempo & el y es el progreso)
+        https://cubic-bezier.com/#.5,.51,.52,.52
+
+
+=====REPASO SELECTORES
+    tagname
+        div 
+    conuncion (y que tengan)
+        div.row
+    descendiente o anidado
+        .container .row
+    descendiente directo
+        .2 > rosa 
+
+
+====POSITION
+calc(50%-elemento medida a la mitad)
+
+=Trancisiones
+Cambio gradual
+    LINEAR
+
+SE PUEDE TRANCICIONAR
+    height
+    widht
+    color
+
+@KEYFRAMES
+    ESCENA
+
+        @keyframe giroDeRueda {
+            0%{
+                transform:rotateZ(0deg);
+                opacity:1;
+            }
+            100%{
+                transform:rotateZ(360deg);
+                opacity:0;
+            }
+        }
