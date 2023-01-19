@@ -1,0 +1,21 @@
+=====Modulo de maquetado 18 enero 2023
+Isrrael Salinas,
+=============Media Queries
+    WEB RESPONSIVE
+
+    Agnóstica = No importa el hardware que utilices ni el sistema operativo, te funcione.
+        Computadoras de escritorio
+        Portatiles
+        Tabletas
+        Telefonos
+        Automoviles
+        Refrigeradores
+
+    IOT = internet of things
+    
+    Diseño de ancho fijo ~ Fixed-widht
+    Diseños liquidos ~ Liquid Layouts
+    Pantallas pequeñas
+    Diseños Adaptables ~ Adaptative Layouts
+    Responsive Web Desing
+    
