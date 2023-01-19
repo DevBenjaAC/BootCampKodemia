@@ -17,5 +17,46 @@ Isrrael Salinas,
     Diseños liquidos ~ Liquid Layouts
     Pantallas pequeñas
     Diseños Adaptables ~ Adaptative Layouts
-    Responsive Web Desing
-    
+    Responsive Web Desing 
+
+===MOBILE FIRST
+    Filosofia de diseño de interfaces  de usuario (UI)
+    Objetivo -> Crear mejores experiencias de usuario
+    Comenzar con el proceso de diseño con los dispositivos móviles en mente primero, dando prioridad.
+
+===View Port
+    Dara al navegador sobre como controlar  las dimenciones  y la escala  de la pagina
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    Espacio Efectivo para visualizar los elementos de DOM.
+
+===Media Queries
+    Existen a partir de CSS3 
+        @media
+        Medios
+        breakpoints
+
+    Sintaxis
+        @media screen and (max-width: 425px) {
+            body {
+            background-color: cornflowerblue;
+             }
+            }
+
+===MOBILE FIRST
+        Filosofía de diseño focalizada en los dispositivos móviles.
+        En términos prácticos hace alusión a un proceso de creación
+        web que tiene como principal objetivo los móviles.
+
+        Escribiremos Media Queries MIN para que apartir de ese width se pueda modificar el viewport
+            (Si solo se usa MIN Se heredaran las propiedades a los anchos posteriores)
+        Escribiremos Media Queries MAX para que se pueda modificar solo hasta ese width del viewport. 
+            (Si se usa 1px superior este ancho YA NO heredara las propiedades)
+
+===Bootstrap v5.2
+    Es mobile First 
+        Cuenta con brakepoints default
+        Menor de 576px      --> Xsmall
+        de 576px a 768px    --> Middle 
+
+===TAILWINDCSS
+    5 Breakpoints !Diferentes a Bootstrap
