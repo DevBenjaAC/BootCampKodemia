@@ -1,1 +1,137 @@
 ===FLEXBOX
+Para usar FLEXBOX
+    contenedor
+    items
+
+==========FLEX-BOX==================
+display:flex
+Modulo de Css
+Revoluciona totalmente la maquetacion
+  FlexBox
+  CssGrid
+
+  Flex__Container (contenedor padre)
+  Flex__Items (hijos directos)
+
+
+ORIENTADO EN EJE PRINCIPAL
+   Izquierda a Derecha -- Main axis
+
+EJE SECUNDADIRIO
+  Cross axis
+  Arriba a Abajo
+
+display: Flex
+          Grid (otra historia)
+===========================================================
+Flex__Container{
+  display: Flex
+  Justify-content
+  flex-direction
+  flex-wrap
+  aling-items
+}
+===========================================================
+FLEX-ITEMS
+
+      ORDER Acepta valores negativos y positivos
+-4 -3 -2 -1 0 1 2 3 4
+.flex-item{
+  ORDER: 0; POR DEFECTO
+}
+      FLEX-GROW  
+Valor por defecto 0 // 
+ESPACIO DISPONIBLE DIVISIBLE ENTRE EL VALOR TOTAL DE GROW
+  SUMA EL VALOR DEL ITEM + el resultado de la division
+
+
+ESPACIO DISPONIBLE SOBRANTE VISIBLE     200>300
+==========================================================
+ESPACIO DISPONIBLE FALTANTE NO VISIBLE  600>400
+
+      FLEX-SHRINK
+Valor por defecto 1 // 
+ESPACIO DISPONIBLE DIVISIBLE ENTRE EL VALOR TOTAL DE SHRINK 
+  RESTA EL VALOR DEL ITEM - el resultado de la division
+
+
+==============FLEX-DIRECTION------CONTROL DE EJES
+    row --> izquierda-derecha y arriba-abajo POR DEFECTO
+    column --> arriba -abajo y izquierda-derecha
+    row-reverse --> derecha-izquierda y abajo-arriba
+    column-reverse --> abajo-arriba y izquierda-derecha
+    flex-wrap-No wrap (por defecto)
+    wrap: se ajustan a la siguiente fila
+
+
+=================JUSTIFY CONTENT
+  Alinear a mis flex-items(elementos) en el eje PRINCIPAL
+    flex-star POR DEFECTO
+      inicio
+    flex-end
+      final
+    center
+      centrar los elementos al centro de el eje PRINCIPAL
+    space-between
+      primer elemento al inicio y ultimo al final
+    space-around
+      distribuye el espacio (los adyacentes se suman)
+    space-evenly
+      distribuye mismo espacio a todos los elementos
+
+===============ALINGTH ITEMS     
+  Alinear a mis flex-items(elementos) en el eje SECUNDARIO
+    stretch es por defecto. (heigth Es Definido)-STIRA
+      flex-star
+        inicio
+      flex-end
+        final
+      center
+        centrar
+      baseline
+        se alinea a la base del contenido
+
+==============ALINGTH-CONTENT
+Alinear a mis flex-items en el eje SECUNDARIO RESTANTE 
+    Esto alinea las líneas de un contenedor flexible cuando hay espacio adicional en el eje SECUNDARIO
+
+flex-wrap DEBE SER wrap ACTIVO
+
+  flex-star
+    inicio
+  flex-end
+   final
+  center
+    centrar
+  space-between
+     primer elemento al inicio y ultimo al final
+  space-around
+     distribuye el espacio (los adyacentes se suman)
+  space-evenly
+    distribuye mismo espacio a todos los elementos
+
+ORDER
+-4 -3 -2 -1 0 1 2 3 4
+==================================================
+ALINGTH-SELF 
+aling-self
+  Alinea un elemento flex a lo largo del eje transversal,(y sobre x)
+   anulando el valor de aling.items
+=====================
+  flex-wrap
+    nowrap
+        cada elemento se ajusta en una sola linea
+    wrap
+        los elementos se envuelven alrededor de las
+        las lineas adicionales
+    wrap-reverse
+        Los elementos se envuelven alrededor de las
+        lineas adicionales en reversa
+
+Flex-direction 
+  Define la direccion del eje PRINCIPAL
+
+INVESTIGAR==============
+  FLEX ITEMS
+  Sass
+Jugar el sapo

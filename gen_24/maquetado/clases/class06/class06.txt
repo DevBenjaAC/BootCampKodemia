@@ -1,0 +1,29 @@
+=========BOOTSTRAP
+Plugin
+    Complementos que añaden funcionalidades extra o mejoras a los programas.
+Libreria
+    Conjuntos de archivos de código que se utilizan para desarrollar software especifico.
+Framework
+    un marco de trabajo que tiene como objetivo facilitar la solución de problemas que pueden surgir 
+    al programar al utilizar librerias y pugins para construir codigo
+
+Como usar BOOTSTRAP
+    container
+        row
+            column
+                .card
+    
+    main
+    section
+    div
+
+    col
+    col-sm-12
+    col-md-6
+    col-lg-6
+
+    Clases :
+    col --> La raiz
+    md --> Prefijo responsivo/ En que resolucion se va a comportar 
+
+    Container-fluid
